@@ -1,0 +1,1186 @@
+fileFormatVersion: 2
+guid: ea58c48c21aec6743aa4dce04d79574b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6163141739810777268
+    second: FootmanIdle1
+  - first:
+      213: -5799459211955425811
+    second: FootmanIdle2
+  - first:
+      213: -1530013904167537794
+    second: FootmanIdle3
+  - first:
+      213: -1355035757132029307
+    second: FootmanIdle4
+  - first:
+      213: 5212340381011987394
+    second: FootmanIdle5
+  - first:
+      213: -334537131209503206
+    second: FootmanIdle6
+  - first:
+      213: 2181568129135091774
+    second: FootmanIdle7
+  - first:
+      213: -6117204740076861222
+    second: FootmanIdle8
+  - first:
+      213: 2426509067171492246
+    second: FootmanIdle9
+  - first:
+      213: 6129701206876708784
+    second: FootmanIdle10
+  - first:
+      213: -4623898773586082231
+    second: FootmanIdle11
+  - first:
+      213: -2964317175448361543
+    second: paladin1_11
+  - first:
+      213: 5324395880917975172
+    second: FootmanWalk1
+  - first:
+      213: 8292281352665418979
+    second: FootmanWalk2
+  - first:
+      213: -2935130766527696496
+    second: FootmanWalk3
+  - first:
+      213: 5704788634457649307
+    second: FootmanWalk4
+  - first:
+      213: -2055686349662588768
+    second: aa
+  - first:
+      213: -8461830334761991336
+    second: FootmanWalk5
+  - first:
+      213: -573246857403373851
+    second: FootmanWalk6
+  - first:
+      213: 683717379746506884
+    second: FootmanWalk7
+  - first:
+      213: 996966195667938761
+    second: FootmanWalk8
+  - first:
+      213: 5594917584127514806
+    second: paladin1_21
+  - first:
+      213: -6652728122164871865
+    second: paladin1_22
+  - first:
+      213: -8630695021950702166
+    second: paladin1_23
+  - first:
+      213: 7475452082012969932
+    second: FootmanAttack1
+  - first:
+      213: -2307839198672614827
+    second: FootmanAttack2
+  - first:
+      213: 5145515420891316799
+    second: FootmanAttack3
+  - first:
+      213: 5664499023334531872
+    second: FootmanAttack4
+  - first:
+      213: -9131028178513039947
+    second: FootmanAttack5
+  - first:
+      213: -5349313826922571541
+    second: FootmanDeath5
+  - first:
+      213: -58063004940343329
+    second: aaa
+  - first:
+      213: -9054224829338513817
+    second: FootmanDeath8
+  - first:
+      213: -307289441448860283
+    second: FootmanAttack6
+  - first:
+      213: 8773977415450952396
+    second: FootmanAttack7
+  - first:
+      213: 7653491487156524520
+    second: paladin1_34
+  - first:
+      213: 7536176288993164382
+    second: paladin1_35
+  - first:
+      213: -4482478912549347025
+    second: FootmanDeath1
+  - first:
+      213: 7942551735343435919
+    second: FootmanDeath2
+  - first:
+      213: -5742767584713136226
+    second: FootmanDeath3
+  - first:
+      213: 2514462448042688766
+    second: FootmanDeath4
+  - first:
+      213: -826447869668719529
+    second: FootmanDeath7
+  - first:
+      213: -11415394204618004
+    second: paladin1_41
+  - first:
+      213: 664914944128301205
+    second: FootmanDeath6
+  - first:
+      213: -1329187461615237766
+    second: paladin1_43
+  - first:
+      213: -6926200287717586469
+    second: paladin1_44
+  - first:
+      213: -4117417724686640549
+    second: paladin1_45
+  - first:
+      213: -7309495578824394816
+    second: paladin1_46
+  - first:
+      213: -5793861579383024955
+    second: paladin1_47
+  - first:
+      213: 8213681922183522655
+    second: paladin1_0
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FootmanIdle1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.27210885, y: 0.35856324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fcf2ff43da5e547ba9e5616449ccb5
+      internalID: -6163141739810777268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.48250824, y: 0.3497757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4691cc737c5215f46a8a27e12a6e5d9a
+      internalID: -5799459211955425811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.34651673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b953f374d744c104d99ade51f104e01d
+      internalID: -1530013904167537794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49643096, y: 0.33937806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae3ebcf937b2404f8c6d943a32de190
+      internalID: -1355035757132029307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49643096, y: 0.36079437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2d4979c0f99df429cd238ff92f4e58
+      internalID: 5212340381011987394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle6
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.48572266, y: 0.3536554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b43f0eb5f98d8547b9c37fa24ebb429
+      internalID: -334537131209503206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.48572266, y: 0.3536554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb7a8d1151c73745bafbee06e21abfd
+      internalID: 2181568129135091774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49643126, y: 0.36079437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc6205208dcf504c80db4397496c2f0
+      internalID: -6117204740076861222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle9
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49643126, y: 0.3536554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7070adab74d7627449c8a003b3cd6633
+      internalID: 2426509067171492246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle10
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5107092, y: 0.36793303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8949476603dd3034bbf2a6139f8c1d30
+      internalID: 6129701206876708784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanIdle11
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 357
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.67847043, y: 0.35722473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac36a5686de56144c8a2007c1595b4fb
+      internalID: -4623898773586082231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_11
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 237
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8bf67d7b3ad3741847cb3233a738d0
+      internalID: -2964317175448361543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.31028324, y: 0.3568805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9565e4eb800ca846ab5a4d0d978a376
+      internalID: 5324395880917975172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 257
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5066568, y: 0.35355195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b251ef475d1858f4da234b705551bacc
+      internalID: 8292281352665418979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 257
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49667177, y: 0.36686555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30028d184074574baf8c7a6be593a72
+      internalID: -2935130766527696496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk4
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 257
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49667177, y: 0.36353728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ba9e0bd8fca8e4288b93348348392b
+      internalID: 5704788634457649307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aa
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 148
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.48185912, y: 0.3403714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aba8ea3819d01e418f92712fa4b6719
+      internalID: -2055686349662588768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 257
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5099853, y: 0.36686555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f04f916ecd362498973e27f05916de
+      internalID: -8461830334761991336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk6
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 258
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49667177, y: 0.36020875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d639299d7ad0ef41a521623a457f04d
+      internalID: -573246857403373851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 258
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5133136, y: 0.35355195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b42699b35407b41adfca585dbdc4fd
+      internalID: 683717379746506884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanWalk8
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 257
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.50332826, y: 0.34689546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703ad948c98cf2e4f92b8ea40a065295
+      internalID: 996966195667938761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_21
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 252
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaf44bbf577759459acaff2e58377cf
+      internalID: 5594917584127514806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 257
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2202d614ad1982b4dbf7a89c93969f3c
+      internalID: -6652728122164871865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 257
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046f52a694a361f448e0c9326b1250b7
+      internalID: -8630695021950702166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanAttack1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.3346096, y: 0.347332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93620b2084619f4e9cceac6e4e9befc
+      internalID: 7475452082012969932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanAttack2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 146
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.4939914, y: 0.34077317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd155e32cd5b79547be83a4029bd5675
+      internalID: -2307839198672614827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanAttack3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 147
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5145111, y: 0.3476274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1271a861c21aa1042a0df05a502a448f
+      internalID: 5145515420891316799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanAttack4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 148
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.51088315, y: 0.32223207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f156e96bd183418ec697d1a7720d8
+      internalID: 5664499023334531872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanAttack5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 148
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5326505, y: 0.32586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843e70f262ec10e4f98cb44a7a13260b
+      internalID: -9131028178513039947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath5
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 43
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.46816102, y: 0.4421103}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2123d951a034174e9c830b251fef893
+      internalID: -5349313826922571541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aaa
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 148
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.51088256, y: 0.34399948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ae502a0adee564d946679fdb3b7107
+      internalID: -58063004940343329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath8
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 43
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49756896, y: 0.42459488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3847f600baf871a4f90cc369f488083d
+      internalID: -9054224829338513817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanAttack6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 146
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.47097534, y: 0.3222319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f35a84efe2582b45b1044bb1f5d2d34
+      internalID: -307289441448860283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanAttack7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 147
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.48548707, y: 0.34037155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a1e602651b93843a64449cf895a95d
+      internalID: 8773977415450952396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_35
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 157
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac8d24595029cb4bb8f1edb8cf2d561
+      internalID: 7536176288993164382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.32040387, y: 0.45129585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a265005ede21394980fd0c7a17ad17c
+      internalID: -4482478912549347025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 41
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.46651596, y: 0.4482518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d916e523df0ec5d48be7096ab5a5a671
+      internalID: 7942551735343435919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 42
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.48782408, y: 0.4452079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c176274494263044aa8a67a67cbd5ba
+      internalID: -5742767584713136226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 43
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.4639734, y: 0.4508725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6ec0e849cb44e45ae2710834ec7986
+      internalID: 2514462448042688766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 43
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.50270814, y: 0.43230164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bac41b9c1ff02438745661587ed34e
+      internalID: -826447869668719529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootmanDeath6
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 43
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.45658204, y: 0.4398831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf30dfba9f47a846815222eb468b210
+      internalID: 664914944128301205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_46
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 32
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00713d791563efc4aa1d67a181a58982
+      internalID: -7309495578824394816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_47
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 57
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9be1b8000e256844b37df930d52bca5
+      internalID: -5793861579383024955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paladin1_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 119
+        width: 3
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2191883e2975bb945b130ac6b5f1bf9e
+      internalID: 8213681922183522655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

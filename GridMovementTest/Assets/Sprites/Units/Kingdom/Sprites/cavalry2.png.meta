@@ -1,0 +1,1363 @@
+fileFormatVersion: 2
+guid: 0ae07c197ac1c1b44a396a841d6c84ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6319385159671330406
+    second: KnightIdle1
+  - first:
+      213: -3468305249278976629
+    second: KnightIdle2
+  - first:
+      213: 5383656243386408498
+    second: KnightIdle3
+  - first:
+      213: 4768750339286770444
+    second: KnightIdle4
+  - first:
+      213: -2914083329651903475
+    second: KnightIdle5
+  - first:
+      213: 8492822083186722776
+    second: cavalry2_5
+  - first:
+      213: 2818803968446730674
+    second: cavalry2_6
+  - first:
+      213: -2043425421047742316
+    second: cavalry2_7
+  - first:
+      213: 4358861497157267786
+    second: cavalry2_8
+  - first:
+      213: -5688696960043016944
+    second: KnightWalk1
+  - first:
+      213: 6991528347683265910
+    second: KnightWalk2
+  - first:
+      213: -5120890466705921279
+    second: KnightWalk3
+  - first:
+      213: -5290290846638061216
+    second: KnightWalk4
+  - first:
+      213: -2916321321967843174
+    second: KnightWalk5
+  - first:
+      213: 7366723834085326378
+    second: KnightWalk6
+  - first:
+      213: 684481876984393030
+    second: KnightWalk7
+  - first:
+      213: 5315703506921724256
+    second: cavalry2_16
+  - first:
+      213: 3681098869556398049
+    second: KnightWalk8
+  - first:
+      213: 1104376890325397628
+    second: KnightAttack1
+  - first:
+      213: -6524324843437398791
+    second: KnightAttack2
+  - first:
+      213: -2713893042477837798
+    second: cavalry2_20
+  - first:
+      213: -8780895900756443386
+    second: KnightAttack3
+  - first:
+      213: 2424693225046453731
+    second: KnightAttack4
+  - first:
+      213: 7928468192516399534
+    second: cavalry2_23
+  - first:
+      213: 9086873346570078853
+    second: cavalry2_24
+  - first:
+      213: -3282434371857441664
+    second: cavalry2_25
+  - first:
+      213: 5400688008960247769
+    second: cavalry2_26
+  - first:
+      213: 117721768087393810
+    second: cavalry2_27
+  - first:
+      213: 6072035355025886352
+    second: cavalry2_28
+  - first:
+      213: -2593577591724403671
+    second: cavalry2_29
+  - first:
+      213: -8967811158541393417
+    second: cavalry2_30
+  - first:
+      213: 8112535582313824164
+    second: cavalry2_31
+  - first:
+      213: -2271282984287185878
+    second: cavalry2_32
+  - first:
+      213: -4596809647353703575
+    second: cavalry2_33
+  - first:
+      213: 5792033251683685296
+    second: cavalry2_34
+  - first:
+      213: -2743496653552089226
+    second: cavalry2_35
+  - first:
+      213: 5286254555306152904
+    second: cavalry2_36
+  - first:
+      213: 7692690705583239535
+    second: cavalry2_37
+  - first:
+      213: 9109772835615497714
+    second: cavalry2_38
+  - first:
+      213: -1299242796547172731
+    second: cavalry2_39
+  - first:
+      213: 1435135717843661518
+    second: cavalry2_40
+  - first:
+      213: 5471628418911691915
+    second: cavalry2_41
+  - first:
+      213: 6909290892327824429
+    second: cavalry2_42
+  - first:
+      213: -5980021076249258567
+    second: cavalry2_43
+  - first:
+      213: 4866546203529318011
+    second: KnightDeath1
+  - first:
+      213: -6307711051563907606
+    second: KnightDeath2
+  - first:
+      213: 4633181754555628327
+    second: KnightDeath3
+  - first:
+      213: -2122468932738796036
+    second: KnightDeath4
+  - first:
+      213: 7168268274668651852
+    second: cavalry2_48
+  - first:
+      213: -7545185987383014885
+    second: KnightDeath5
+  - first:
+      213: 7974381067671352592
+    second: cavalry2_50
+  - first:
+      213: 8584674672367130321
+    second: cavalry2_51
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 85
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KnightIdle1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.33893228, y: 0.35609862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb0ffdad142f742b75b3e432861e55
+      internalID: -6319385159671330406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightIdle2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 507
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.4770124, y: 0.35288024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce84d30d34c7ef4885a742e55d59095
+      internalID: -3468305249278976629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightIdle3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 507
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.34669068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391db25b260caa7449bda3b8b73f90d7
+      internalID: 5383656243386408498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightIdle4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 507
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5312648, y: 0.34413758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee621d71dc4dd1347b1398fc1a8b87be
+      internalID: 4768750339286770444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightIdle5
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 505
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5068784, y: 0.3620642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73316d0c772f45047b9e837ea15e63c9
+      internalID: -2914083329651903475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_5
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 510
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5785cf028f9411b4ab00d53a1b595382
+      internalID: 8492822083186722776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 510
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0426212ce2b2f1d4aa3cd50b74582aea
+      internalID: 2818803968446730674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 510
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0370159681db17d4993fcbfbdc1de4c6
+      internalID: -2043425421047742316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 510
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b63fbc36f8ab1a41aabf2bd4b8d62db
+      internalID: 4358861497157267786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.36801895, y: 0.3454419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6524b6ed2e21574daf3e62ad251e706
+      internalID: -5688696960043016944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 396
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.50822043, y: 0.3500589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab2bbe9d933ec646bb112bde278e629
+      internalID: 6991528347683265910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 396
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5153973, y: 0.34889802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd9e72d61d1df147a58f1d9823d8ce9
+      internalID: -5120890466705921279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 396
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5341134, y: 0.37082183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75f0fd4f8ba89c468788a6571f28368
+      internalID: -5290290846638061216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk5
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 396
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.52258205, y: 0.3596112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c047b817d70d5c747a4eab4fe4d427d5
+      internalID: -2916321321967843174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 396
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.52779245, y: 0.35253602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8775316264e1b7469d3c6331f9548e6
+      internalID: 7366723834085326378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk7
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 399
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5070429, y: 0.3490045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d17643e2988c74d8c76d21301fa487
+      internalID: 684481876984393030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 297
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4b38ce21d44534f9fc489e4eadeeb9
+      internalID: 5315703506921724256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightWalk8
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 399
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.6109228, y: 0.33322906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73487faf21227714b8824548d97b9da9
+      internalID: 3681098869556398049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightAttack1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 293
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.40234035, y: 0.30056274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c44e83e972c8144b0734bf5f6fa219
+      internalID: 1104376890325397628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightAttack2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 293
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5528797, y: 0.32401672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a76bc4382d7b24f92591e84c6b19d4
+      internalID: -6524324843437398791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 104
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c3ce479d245c645bfcf726ed28dc4e
+      internalID: -2713893042477837798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightAttack3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 293
+        width: 134
+        height: 100
+      alignment: 9
+      pivot: {x: 0.4764279, y: 0.40523955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03548f3d634e28f4993459d40e6f1759
+      internalID: -8780895900756443386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightAttack4
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 291
+        width: 140
+        height: 100
+      alignment: 9
+      pivot: {x: 0.425868, y: 0.33304137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e54dc01ed1bdc40b4b8aaca4a13b72
+      internalID: 2424693225046453731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_23
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 242
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ab67b6f00caed478f88428e68ea8ce
+      internalID: 7928468192516399534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 252
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d1b00aac45a06479189b26264e3606
+      internalID: 9086873346570078853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_25
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 261
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b568c2d1582d76249acf89c7ca29f7fb
+      internalID: -3282434371857441664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_26
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 261
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e3e9dd391e1864aa1ff31b8f650a93
+      internalID: 5400688008960247769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 112
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5055349475e142340a209273363f8eb9
+      internalID: 117721768087393810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 124
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd64cb1d9ef2d4492262f11c405981
+      internalID: 6072035355025886352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 210
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9638f386a55a946b2f5e21cb48c7da
+      internalID: -2593577591724403671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_30
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 112
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f218d8f831b8143b4c5af9d91b7539
+      internalID: -8967811158541393417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_31
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 178
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde2fd62a153a434f8aa9ab113b23a70
+      internalID: 8112535582313824164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 210
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b244523a43902b948803811a74945b2a
+      internalID: -2271282984287185878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 210
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4582b9177e66424498d73732d41637a4
+      internalID: -4596809647353703575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 210
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4317d9ebe78d204eaa44877e72d7c7d
+      internalID: 5792033251683685296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 210
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc0c2c88d674494aae045dc6669b2d3
+      internalID: -2743496653552089226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44832276b03770b4ab75d83ad6f5eab7
+      internalID: 5286254555306152904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 110
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2b5e82a7c416b4087a21d6d924ed2d
+      internalID: 7692690705583239535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 110
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87f330c3567c3c46989c8dd3c2f1f5f
+      internalID: 9109772835615497714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 110
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf80d8932289be46b5754b42bb4161b
+      internalID: -1299242796547172731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 110
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076ff78029eef1b408f360e35054ca8f
+      internalID: 1435135717843661518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_41
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 101
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9437ed895954155488c340153f6335f6
+      internalID: 5471628418911691915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_42
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 110
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77a94f7333c39044af18d5a39b04bf6
+      internalID: 6909290892327824429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_43
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 110
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2730b3098c12ccf4ab42a7cbf742a5ee
+      internalID: -5980021076249258567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightDeath1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39170262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb0d157e5ca68f4fa4a6b3cc7fdf542
+      internalID: 4866546203529318011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightDeath2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5035254, y: 0.40523964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70cb8859578a4441bd2b03671c53eae
+      internalID: -6307711051563907606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightDeath3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 5
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5040481, y: 0.41091892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b941055917af96b4ca5df2f8d410dc9e
+      internalID: 4633181754555628327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightDeath4
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 5
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5022907, y: 0.40615213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a9a18e83fe91e42b193a93277358ce
+      internalID: -2122468932738796036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_48
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 134
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7724ea201c6bcc342b8f60bef878b28e
+      internalID: 7168268274668651852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KnightDeath5
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 0
+        width: 128
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5070739, y: 0.38756067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b46aea6b33c1b74cbf61fc6ef89c941
+      internalID: -7545185987383014885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_50
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 10
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f65c4455abf05447972151d04b15669
+      internalID: 7974381067671352592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cavalry2_51
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 10
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f319025ece22fef4aaa83578c5694668
+      internalID: 8584674672367130321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
