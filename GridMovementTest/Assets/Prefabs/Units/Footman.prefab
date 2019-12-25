@@ -193,6 +193,7 @@ MonoBehaviour:
   attackTile: {fileID: 0}
   abilities:
   - {fileID: 11400000, guid: fc6fa7bed3c25d34d9ebbd2d98a75e0c, type: 2}
+  - {fileID: 11400000, guid: 41160db1abaaec74cb26cdb324d2d34b, type: 2}
 --- !u!114 &7347663554516177624
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,21 +7,19 @@ public class AdjacentUnitsAttack : UnitAbility
 {
     public override void ExecuteAbility(Unit abilityUser)
     {
-        IsometricTile origin = abilityUser.attackTile;
+        IsometricTile origin = abilityUser.currentTile;
+        IsometricTile attack = abilityUser.attackTile;
 
         foreach (IsometricTile i in origin.GetNeighbors())
         {
-            if (i && i.unit)
+            if (i != null && i.unit != null && i.unit.champ.playerNumber == abilityUser.champ.playerNumber)
             {
-                if (i.unit.champ.playerNumber == abilityUser.champ.playerNumber) //only friendly units
-                {
-                    //i.unit.res.hasAttacked = false;
-                    //i.unit.SetAttackTile(origin);
-                    //i.unit.AttackTile();
-                    ////i.unit.StartAnimation(i.unit.PerformAttack());
+                i.unit.res.hasAttacked = false;
+                i.unit.SetAttackTile(attack);
+                i.unit.StartAttack();
+                i.unit.res.hasAttacked = true;
 
-                    //origin.EnableAttackedIndicator(false);
-                }
+                origin.EnableAttackedIndicator(false);
             }
         }
 
