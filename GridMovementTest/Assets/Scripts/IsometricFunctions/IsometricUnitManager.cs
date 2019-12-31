@@ -13,7 +13,8 @@ public class IsometricUnitManager : MonoBehaviour
     public IsometricGrid grid;
 
     public EndGame endCanvas;
-    
+
+    public AIBehaviour aiController;
     //move
     public Image turnColor;
 
@@ -336,13 +337,38 @@ public class IsometricUnitManager : MonoBehaviour
 
     public void EndTurn()
     {
-        for (int i = 0; i < 2; i++)
-        {
-            teams[i].ResetAllUnits(); //remove the select indicators
-            UpdateAllTactics();
-        }
+        StopAllCoroutines();
+        StartCoroutine(EndTurnCoroutine());
+        //teams[0].ResetAllUnits(); //remove the select indicators
+        //UpdateAllTactics();
 
-        foreach (Unit u in teams[currentPlayer-1].team)
+        //foreach (Unit u in teams[0].team)
+        //{
+        //    if (u.gameObject.activeSelf)
+        //    {
+        //        CarryOutTurn(u);
+        //        grid.ShowTacticPattern(u.InitializeTactic(), false);
+        //    }
+        //}
+
+        //selectedUnit = null; //no unit is selected yet
+
+        ////this is uber bad
+        //teams[0].SwitchActivePlayer(teams[1]);
+        //SwitchTeams();
+        //turnCount++;
+        //grid.ClearSpawnerTiles();
+        //IsometricMetrics.state = BattleState.BATTLE;
+
+        //aiController.PerformAITurn();
+    }
+
+    IEnumerator EndTurnCoroutine()
+    {
+        teams[0].ResetAllUnits(); //remove the select indicators
+        UpdateAllTactics();
+
+        foreach (Unit u in teams[0].team)
         {
             if (u.gameObject.activeSelf)
             {
@@ -357,20 +383,22 @@ public class IsometricUnitManager : MonoBehaviour
         teams[0].SwitchActivePlayer(teams[1]);
         SwitchTeams();
         turnCount++;
+        grid.ClearSpawnerTiles();
+        IsometricMetrics.state = BattleState.BATTLE;
 
-        if (turnCount < 2)
+       
+        for (float t = 0f; t < 5; t += Time.deltaTime)
         {
-            grid.ClearSpawnerTiles();
+            yield return null;
         }
-        else
-        {
-            grid.ClearSpawnerTiles();
-            IsometricMetrics.state = BattleState.BATTLE;
-        }
+        aiController.PerformAITurn();
     }
 
+
+
+
     //move this to some UI related script
-    void SwitchTeams()
+    public void SwitchTeams()
     {
         if (turnColor.color == Color.blue)
         {
@@ -394,4 +422,40 @@ public class IsometricUnitManager : MonoBehaviour
             }
         }
     }
+
+
+    //public void EndTurn()
+    //{
+    //    for (int i = 0; i < 2; i++)
+    //    {
+    //        teams[i].ResetAllUnits(); //remove the select indicators
+    //        UpdateAllTactics();
+    //    }
+
+    //    foreach (Unit u in teams[currentPlayer - 1].team)
+    //    {
+    //        if (u.gameObject.activeSelf)
+    //        {
+    //            CarryOutTurn(u);
+    //            grid.ShowTacticPattern(u.InitializeTactic(), false);
+    //        }
+    //    }
+
+    //    selectedUnit = null; //no unit is selected yet
+
+    //    //this is uber bad
+    //    teams[0].SwitchActivePlayer(teams[1]);
+    //    SwitchTeams();
+    //    turnCount++;
+
+    //    if (turnCount < 2)
+    //    {
+    //        grid.ClearSpawnerTiles();
+    //    }
+    //    else
+    //    {
+    //        grid.ClearSpawnerTiles();
+    //        IsometricMetrics.state = BattleState.BATTLE;
+    //    }
+    //}
 }
