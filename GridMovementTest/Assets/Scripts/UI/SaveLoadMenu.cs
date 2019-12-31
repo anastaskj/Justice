@@ -97,7 +97,6 @@ public class SaveLoadMenu : MonoBehaviour
             int header = reader.ReadInt32();
             if (header == 0)
             {
-                Debug.Log(features.isActiveAndEnabled + " " + manager.isActiveAndEnabled);
                 grid.Load(reader, features, manager);
             }
             else

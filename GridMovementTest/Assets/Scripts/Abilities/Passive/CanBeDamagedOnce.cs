@@ -5,12 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DamagedOnce", menuName = "Unit Abilities/Passive/CanBeDamagedOnce")]
 public class CanBeDamagedOnce : UnitAbility
 {
+    [SerializeField]
+    int shieldAmount = 1;
+
     public override void ExecuteAbility(Unit abilityUser)
     {
-        bool canBeDamaged = abilityUser.res.hasTakenDamage;
-        if (canBeDamaged)
-        {
-            abilityUser.res.damageToBeTaken = 0;
-        }
+        abilityUser.res.GainShield(shieldAmount);
     }
 }

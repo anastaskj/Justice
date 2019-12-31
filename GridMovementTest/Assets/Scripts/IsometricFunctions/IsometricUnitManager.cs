@@ -37,7 +37,7 @@ public class IsometricUnitManager : MonoBehaviour
     public bool UseAbilityActive { get { return unitUseAbilityActive; } }
 
 
-    public BattleState state;
+    
 
 
     private void Awake()
@@ -84,7 +84,7 @@ public class IsometricUnitManager : MonoBehaviour
 
     private void Start()
     {
-        state = BattleState.SPAWN;
+        IsometricMetrics.state = BattleState.SPAWN;
         currentPlayer = 1;
         //endCanvas.gameObject.SetActive(false);
     }
@@ -179,7 +179,7 @@ public class IsometricUnitManager : MonoBehaviour
 
     void HandleUnit(IsometricTile tile)
     {
-        if (state == BattleState.SETUP)
+        if (IsometricMetrics.state == BattleState.SETUP)
         {
             if (tile.unit != null && tile.unit.CheckUnitTeam())
             {
@@ -207,7 +207,7 @@ public class IsometricUnitManager : MonoBehaviour
                 }
             }
         }
-        else if (state == BattleState.BATTLE)
+        else if (IsometricMetrics.state == BattleState.BATTLE)
         {
             //if a unit has not been selected and you've clicked on a tile that has a unit
             if (tile.unit != null && tile.unit.CheckUnitTeam() && !tile.unit.res.willMove && !unitUseAbilityActive)
@@ -280,7 +280,7 @@ public class IsometricUnitManager : MonoBehaviour
         }
         
         turnColor.color = Color.blue;
-        state = BattleState.SETUP;
+        IsometricMetrics.state = BattleState.SETUP;
     }
 
     public void SpawnUnit(IsometricTile tile, int i, int j)
@@ -342,12 +342,11 @@ public class IsometricUnitManager : MonoBehaviour
             UpdateAllTactics();
         }
 
-        foreach (Unit u in teams[currentPlayer-1].team) //change to a queue of units/actions that need to be done
+        foreach (Unit u in teams[currentPlayer-1].team)
         {
-            if (u != null)
+            if (u.gameObject.activeSelf)
             {
                 CarryOutTurn(u);
-                //refresh the unit's action points and checks
                 grid.ShowTacticPattern(u.InitializeTactic(), false);
             }
         }
@@ -366,7 +365,7 @@ public class IsometricUnitManager : MonoBehaviour
         else
         {
             grid.ClearSpawnerTiles();
-            state = BattleState.BATTLE;
+            IsometricMetrics.state = BattleState.BATTLE;
         }
     }
 

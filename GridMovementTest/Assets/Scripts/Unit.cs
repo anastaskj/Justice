@@ -64,7 +64,7 @@ public class Unit : MonoBehaviour
             if (u != this)
             {
                 u.SetActiveIndicator(false);
-                if (manager.state == BattleState.BATTLE)
+                if (IsometricMetrics.state == BattleState.BATTLE)
                 {
                     grid.ShowTacticPattern(u.possibleTiles, false);
                 }
@@ -177,7 +177,7 @@ public class Unit : MonoBehaviour
 
                     attackedUnit.TakeDamage(attackedUnit.res.damageToBeTaken);
                     ChangeFacingDirectionAttack(attackedUnit);
-                    attackedUnit.currentTile.EnableAttackedIndicator(false);
+                    attackTile.EnableAttackedIndicator(false);
 
                     triggerAbility(AbilityTrigger.ON_ATTACK);
 
@@ -489,6 +489,7 @@ public class Unit : MonoBehaviour
 
     public IEnumerator PerformAttack()
     {
+        Debug.Log("Attack");
         if (attackTile.transform.position.x > currentTile.transform.position.x)
         {
             anim.SetTrigger("AttackRight");
@@ -508,7 +509,7 @@ public class Unit : MonoBehaviour
 
     IEnumerator DeathAnimation()
     {
-        anim.SetBool("Death", true);
+        anim.SetTrigger("Death");
         for (float t = 0f; t < res.deathTimer; t += Time.deltaTime)
         {
             yield return null;

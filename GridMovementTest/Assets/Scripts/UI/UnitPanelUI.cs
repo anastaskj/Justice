@@ -18,6 +18,12 @@ public class UnitPanelUI : MonoBehaviour
     public AbilityDetailsUI abilityDetails;
     //
 
+    [SerializeField]
+    Color normalHealthColor;
+    [SerializeField]
+    Color shieldedHealthColor;
+
+  
     private void Start()
     {
         UpdateUnitUI();
@@ -31,6 +37,14 @@ public class UnitPanelUI : MonoBehaviour
             unitSprite.sprite = u.sprite;
             unitName.text = u.tag;
             unitHealth.text = u.res.GetCurrentHealth() + "/" + u.res.GetMaxHealth();
+            if (u.res.GetCurrentHealth() > u.res.GetMaxHealth())
+            {
+                unitHealth.color = shieldedHealthColor;
+            }
+            else
+            {
+                unitHealth.color = normalHealthColor;
+            }
             unitFlex.text = u.res.flexibility.ToString();
             unitDmg.text = u.res.SideDamage.ToString();
             unitBackDmg.text = u.res.BackDamage.ToString();

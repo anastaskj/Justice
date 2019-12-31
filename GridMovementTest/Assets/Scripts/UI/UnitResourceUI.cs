@@ -14,6 +14,11 @@ public class UnitResourceUI : MonoBehaviour
     
     public Text damageLabel;
     public Canvas canv;
+    
+    [SerializeField]
+    Color normalHealthColor;
+    [SerializeField]
+    Color shieldedHealthColor;
 
     public void ShowDamageLabel(int damageNumber)
     {
@@ -77,7 +82,15 @@ public class UnitResourceUI : MonoBehaviour
         if (healthBar != null)
         {
             healthBar.value = res.GetCurrentHealth();
-            healthText.text = healthBar.value.ToString();
+            healthText.text = res.GetCurrentHealth().ToString();
+            if (res.GetCurrentHealth() > res.GetMaxHealth())
+            {
+                healthText.color = shieldedHealthColor;
+            }
+            else
+            {
+                healthText.color = normalHealthColor;
+            }
             playerColor.color = res.playerColor;
         }
     }

@@ -17,6 +17,7 @@ public static class IsometricMetrics
     public static bool editorMode = true;
 
     public static int maxUnitsPerTeam = 5;
+    public static BattleState state;
 }
 
 public enum BattleState

@@ -8134,6 +8134,8 @@ MonoBehaviour:
   abilityImagePrefab: {fileID: 7707755049625987426, guid: d3c3c3ec64cbf89439ad717ffe9911fe,
     type: 3}
   abilityDetails: {fileID: 1750037332}
+  normalHealthColor: {r: 0, g: 1, b: 0.09019608, a: 1}
+  shieldedHealthColor: {r: 0, g: 0.5882353, b: 1, a: 1}
 --- !u!224 &1058946041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16052,7 +16054,6 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   cursor: {fileID: 2105444936}
   selectedUnit: {fileID: 0}
-  state: 0
 --- !u!114 &2105444936
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -213,7 +213,7 @@ MonoBehaviour:
   actionPoints: 2
   flexibility: 1
   speed: 1
-  attackTimer: 0.7
+  attackTimer: 1
   deathTimer: 1
   hasMoved: 0
   hasAttacked: 0

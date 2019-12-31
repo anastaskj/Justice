@@ -15,11 +15,23 @@ public class UnitDetailsUI : MonoBehaviour
 
     public AbilityDetailsUI abilityDetails;
     public Vector3 spawnOffset;
-    
+
+    [SerializeField]
+    Color normalHealthColor;
+    [SerializeField]
+    Color shieldedHealthColor;
 
     public void SetupDetails(Unit u)
     {
         healthText.text = u.res.GetCurrentHealth().ToString();
+        if (u.res.GetCurrentHealth() > u.res.GetMaxHealth())
+        {
+            healthText.color = shieldedHealthColor;
+        }
+        else
+        {
+            healthText.color = normalHealthColor;
+        }
         flexText.text = u.res.flexibility.ToString();
         unitName.text = u.tag;
         tacticImage.sprite = u.tactic.picture;

@@ -337,10 +337,60 @@ PrefabInstance:
       propertyPath: canv
       value: 
       objectReference: {fileID: 3233130301444760671}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: normalHealthColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: normalHealthColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: normalHealthColor.b
+      value: 0.08852029
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: shieldedHealthColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: shieldedHealthColor.g
+      value: 0.58638144
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: shieldedHealthColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: normalHealthColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137664059553047302, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: shieldedHealthColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8460258759063691483, guid: 5152a6535d08a84469936f68db37a0b9,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 844177544502297073, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: m_EffectDistance.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 844177544502297073, guid: 5152a6535d08a84469936f68db37a0b9,
+        type: 3}
+      propertyPath: m_EffectDistance.y
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5152a6535d08a84469936f68db37a0b9, type: 3}

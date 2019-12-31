@@ -22,7 +22,7 @@ public class TacticsMenu : MonoBehaviour
 
     public void Open()
     {
-        if (unitManager.selectedUnit != null && unitManager.state == BattleState.SETUP)
+        if (unitManager.selectedUnit != null && IsometricMetrics.state == BattleState.SETUP)
         {
             FillList();
             gameObject.SetActive(true);

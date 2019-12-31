@@ -116,4 +116,13 @@ public class UnitResources : MonoBehaviour
     {
         actionPoints -= 1;
     }
+
+    public void GainShield(int value)
+    {
+        if (currentHealth == maxHealth)
+        {
+            currentHealth++;
+
+        }
+    }
 }

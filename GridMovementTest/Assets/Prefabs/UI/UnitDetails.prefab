@@ -641,6 +641,8 @@ MonoBehaviour:
     type: 3}
   abilityDetails: {fileID: 110652814133729068}
   spawnOffset: {x: 250, y: 0, z: 0}
+  normalHealthColor: {r: 0, g: 1, b: 0.09019608, a: 1}
+  shieldedHealthColor: {r: 0, g: 0.5882353, b: 1, a: 1}
 --- !u!1 &7094601649237512919
 GameObject:
   m_ObjectHideFlags: 0
