@@ -117,7 +117,6 @@ public class AIBehaviour : MonoBehaviour
                     //CommitMoveUnit(u, toMove);
 
                     IsometricTile toMove = GenerateClosestPossibleTile(u);
-                    Debug.Log(toMove.coordinates.ToString());
                     CommitMoveUnit(u, toMove);
                 }
                 return; //if you cannot, go onto the next unit

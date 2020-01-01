@@ -7521,9 +7521,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
         type: 3}
+      propertyPath: team.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
+        type: 3}
       propertyPath: playerNumber
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
+        type: 3}
+      propertyPath: team.Array.data[3]
+      value: 
+      objectReference: {fileID: -7251937329128881099, guid: 73e9e04b0e7e50944badf0474b444dce,
+        type: 3}
+    - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
+        type: 3}
+      propertyPath: team.Array.data[4]
+      value: 
+      objectReference: {fileID: -7251937329128881099, guid: 8c7543234b564d14b92959848d8a6ef4,
+        type: 3}
     - target: {fileID: 5671163050915500828, guid: 71b474af5ad5eb649b4de87152faa906,
         type: 3}
       propertyPath: m_Name

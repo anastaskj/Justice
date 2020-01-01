@@ -7,7 +7,7 @@ public class PullForward : UnitActiveAbility
 {
     public override void ExecuteAbility(Unit abilityUser, IsometricTile tile)
     {
-        if (tile != null && tile.unit.champ.playerNumber != abilityUser.champ.playerNumber)
+        if (tile != null && tile.unit && tile.unit.champ.playerNumber != abilityUser.champ.playerNumber)
         {
             Unit target = tile.unit;
             //get the tile that is in front of the target from the perspective of the ability user
