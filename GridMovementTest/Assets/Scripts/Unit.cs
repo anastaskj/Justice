@@ -34,6 +34,7 @@ public class Unit : MonoBehaviour
 
     Animator anim;
 
+    [SerializeField] AudioManager audio;
     
     private void OnEnable()
     {
@@ -90,7 +91,6 @@ public class Unit : MonoBehaviour
             champ.teamSize -= 1;
             currentTile.CostToMove = 1;
             currentTile.unit = null;
-            Debug.Log(champ.teamSize);
             StartCoroutine(DeathAnimation());
         }
     }
@@ -292,6 +292,7 @@ public class Unit : MonoBehaviour
             }
         }
         this.ChangeDirection(direction.Opposite());
+        audio.MoveSound();
     }
    
 
@@ -468,7 +469,7 @@ public class Unit : MonoBehaviour
                 anim.SetBool("MoveRight", true);
                 anim.SetBool("MoveLeft", false);
             }
-
+            audio.MoveSound();
             for (float t = 0f; t < 1f; t += Time.deltaTime * res.speed)
             {
                 transform.localPosition = Vector3.Lerp(a, b, t);
@@ -497,6 +498,7 @@ public class Unit : MonoBehaviour
         {
             anim.SetTrigger("AttackLeft");
         }
+        audio.AttackSound();
         for (float t = 0f; t < res.attackTimer; t += Time.deltaTime)
         {
             yield return null;
@@ -508,6 +510,7 @@ public class Unit : MonoBehaviour
 
     IEnumerator DeathAnimation()
     {
+        audio.DeathSound();
         anim.SetTrigger("Death");
         for (float t = 0f; t < res.deathTimer; t += Time.deltaTime)
         {
@@ -568,6 +571,7 @@ public class Unit : MonoBehaviour
     {
         if (grid.isTileInRange(target, res.activeAbility.abilityRange, currentTile))
         {
+            audio.AbilitySound();
             res.activeAbility.ExecuteAbility(this, target);
             res.MakeAction();
             res.usedAbility = true;
