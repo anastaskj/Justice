@@ -185,7 +185,7 @@ MonoBehaviour:
   res: {fileID: 7347663554516177624}
   resUI: {fileID: 957755375393789959}
   facingDirection: 1
-  tactic: {fileID: 11400000, guid: d89ec5ec8675b204faae37f5c0fe1cb1, type: 2}
+  tactic: {fileID: 11400000, guid: df6f5d31671137945989b1019c25b4e1, type: 2}
   champ: {fileID: 0}
   sprite: {fileID: 21300000, guid: 86609256aa8c5f24aa41964d6f386ded, type: 3}
   grid: {fileID: 0}
@@ -280,7 +280,7 @@ PrefabInstance:
     - target: {fileID: 3233130301444760671, guid: a747a93d18811b7439fefad335038834,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4224427199378303111, guid: a747a93d18811b7439fefad335038834,
         type: 3}
@@ -375,12 +375,12 @@ PrefabInstance:
     - target: {fileID: 8316029161627629378, guid: a747a93d18811b7439fefad335038834,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1
+      value: 1.8749
       objectReference: {fileID: 0}
     - target: {fileID: 8316029161627629378, guid: a747a93d18811b7439fefad335038834,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1
+      value: 1.8749
       objectReference: {fileID: 0}
     - target: {fileID: 8316029161627629378, guid: a747a93d18811b7439fefad335038834,
         type: 3}
@@ -461,6 +461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7505573417866259756, guid: a747a93d18811b7439fefad335038834,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5190356762308618774, guid: a747a93d18811b7439fefad335038834,
         type: 3}

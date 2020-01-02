@@ -15,9 +15,7 @@ public class IsometricObjectDisplay : MonoBehaviour
         m_spriteLowerBound = spriteRenderer.bounds.size.y * 0.5f;
         m_spriteHalfWidth = spriteRenderer.bounds.size.x * 0.5f;
     }
-
-    // Use this condition for objects that don�t move in the scene.
-#if UNITY_EDITOR
+    
     void LateUpdate()
     {
             // Update the position in the Z axis:
@@ -28,19 +26,19 @@ public class IsometricObjectDisplay : MonoBehaviour
                      (transform.position.y - m_spriteLowerBound + m_floorHeight) * m_tan30
                  );
     }
-#endif
 
-    void OnDrawGizmos()
-    {
-        Vector3 floorHeightPos = new Vector3
-                (
-                    transform.position.x,
-                    transform.position.y - m_spriteLowerBound + m_floorHeight,
-                    transform.position.z
-                );
 
-        Gizmos.color = Color.magenta;
-        Gizmos.DrawLine(floorHeightPos + Vector3.left * m_spriteHalfWidth, floorHeightPos + Vector3.right * m_spriteHalfWidth);
-    }
+    //void OnDrawGizmos()
+    //{
+    //    Vector3 floorHeightPos = new Vector3
+    //            (
+    //                transform.position.x,
+    //                transform.position.y - m_spriteLowerBound + m_floorHeight,
+    //                transform.position.z
+    //            );
+
+    //    Gizmos.color = Color.magenta;
+    //    Gizmos.DrawLine(floorHeightPos + Vector3.left * m_spriteHalfWidth, floorHeightPos + Vector3.right * m_spriteHalfWidth);
+    //}
 
 }

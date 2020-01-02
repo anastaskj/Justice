@@ -73,8 +73,7 @@ public class AIBehaviour : MonoBehaviour
                             //if you can, move and attack enemy
                             //if you cannot, go onto the next unit
                     //if you cannot, go onto the next unit
-
-        Debug.Log(u);
+                    
         if(u.res.ActionPoints > 0)
         {
             //check if there is an enemy in a 3 tile range
@@ -84,28 +83,16 @@ public class AIBehaviour : MonoBehaviour
                 Unit closest = ClosestEnemyUnit(u);
                 if (closest.currentTile.IsTileNeighbour(u.currentTile)) //if you are, check what type of neighbour you are
                 {
-                    Debug.Log(u + " is a neighbour of " + closest);
-                    IsometricTile[] tiles1 = closest.currentTile.GetNeighbors();
-                    IsometricTile[] tiles2 = closest.currentTile.GetNeighbors(closest.facingDirection);
-                    IsometricTile[] newTiles = tiles1.Except(tiles2).ToArray();
-
-                    if (newTiles.Contains(u.currentTile)) //if you're already at the back of an enemy
-                    {
-                        Debug.Log("unit " + u + " contains can attack " + closest);
-                        u.SetAttackTile(closest.currentTile); //attack
-                        u.res.willAttack = true;
-                    }
+                    AttackIfPossible(u, closest);
                 }
                 else
                 {
-                    Debug.Log("unit " + u + " is not a neighbour to anyone");
                     IsometricTile toMove = GenerateClosestPossibleTile(u); //move as close as possible to being a neighbour
                     CommitMoveUnit(u, toMove);
                     closest = ClosestEnemyUnit(u);
                     if (closest.currentTile.IsTileNeighbour(u.currentTile)) //if you become a neighbour
                     {
-                        u.SetAttackTile(closest.currentTile); //attack
-                        u.res.willAttack = true;
+                        AttackIfPossible(u, closest);
                     }
                 }
             }
@@ -123,6 +110,20 @@ public class AIBehaviour : MonoBehaviour
             }
         }
     }
+
+    void AttackIfPossible(Unit u, Unit closest)
+    {
+        IsometricTile[] tiles1 = closest.currentTile.GetNeighbors();
+        IsometricTile[] tiles2 = closest.currentTile.GetNeighbors(closest.facingDirection);
+        IsometricTile[] newTiles = tiles1.Except(tiles2).ToArray();
+
+        if (newTiles.Contains(u.currentTile)) //if you're not at the front of an enemy
+        {
+            u.SetAttackTile(closest.currentTile); //attack
+            u.res.willAttack = true;
+        }
+    }
+
 
     Unit ClosestEnemyUnit(Unit u)
     {

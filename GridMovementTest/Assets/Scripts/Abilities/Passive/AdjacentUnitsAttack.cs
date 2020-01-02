@@ -12,14 +12,19 @@ public class AdjacentUnitsAttack : UnitAbility
 
         foreach (IsometricTile i in origin.GetNeighbors())
         {
-            if (i != null && i.unit != null && i.unit.champ.playerNumber == abilityUser.champ.playerNumber)
+            foreach (IsometricTile ii in attack.GetNeighbors())
             {
-                i.unit.res.hasAttacked = false;
-                i.unit.SetAttackTile(attack);
-                i.unit.StartAttack();
-                i.unit.res.hasAttacked = true;
-
-                origin.EnableAttackedIndicator(false);
+                if (i == ii)
+                {
+                    if (i != null && i.unit != null && i.unit.champ.playerNumber == abilityUser.champ.playerNumber)
+                    {
+                        i.unit.res.hasAttacked = false;
+                        i.unit.SetAttackTile(attack);
+                        i.unit.StartAttack();
+                        i.unit.res.hasAttacked = true;
+                        attack.EnableAttackedIndicator(false);
+                    }
+                }
             }
         }
 

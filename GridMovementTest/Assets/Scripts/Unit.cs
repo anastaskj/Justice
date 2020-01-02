@@ -489,7 +489,6 @@ public class Unit : MonoBehaviour
 
     public IEnumerator PerformAttack()
     {
-        Debug.Log("Attack");
         if (attackTile.transform.position.x > currentTile.transform.position.x)
         {
             anim.SetTrigger("AttackRight");
@@ -567,8 +566,11 @@ public class Unit : MonoBehaviour
 
     public void UseActiveAbility(IsometricTile target) //move
     {
-        res.activeAbility.ExecuteAbility(this, target);
-        res.MakeAction();
-        res.usedAbility = true;
+        if (grid.isTileInRange(target, res.activeAbility.abilityRange, currentTile))
+        {
+            res.activeAbility.ExecuteAbility(this, target);
+            res.MakeAction();
+            res.usedAbility = true;
+        }
     }
 }

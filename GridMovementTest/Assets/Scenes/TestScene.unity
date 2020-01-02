@@ -4695,11 +4695,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1413643587971239724, guid: de7585d3c7e93f141ade3c5f533a5522,
-        type: 3}
-      propertyPath: orthographic size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 1413643587971239727, guid: de7585d3c7e93f141ade3c5f533a5522,
         type: 3}
       propertyPath: m_Name
@@ -4759,16 +4754,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5300307366852793364, guid: de7585d3c7e93f141ade3c5f533a5522,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5300307366852793364, guid: de7585d3c7e93f141ade3c5f533a5522,
-        type: 3}
-      propertyPath: maxZoomIn
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de7585d3c7e93f141ade3c5f533a5522, type: 3}
@@ -7522,7 +7507,7 @@ PrefabInstance:
     - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
         type: 3}
       propertyPath: team.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
         type: 3}
@@ -7533,7 +7518,7 @@ PrefabInstance:
         type: 3}
       propertyPath: team.Array.data[3]
       value: 
-      objectReference: {fileID: -7251937329128881099, guid: 73e9e04b0e7e50944badf0474b444dce,
+      objectReference: {fileID: -7251937329128881099, guid: 8c7543234b564d14b92959848d8a6ef4,
         type: 3}
     - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
         type: 3}
@@ -15811,7 +15796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1567, y: 195}
+  m_AnchoredPosition: {x: 1568.8, y: 192.3}
   m_SizeDelta: {x: 468, y: 259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044371838

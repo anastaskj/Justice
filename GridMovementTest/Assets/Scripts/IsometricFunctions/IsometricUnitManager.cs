@@ -68,6 +68,7 @@ public class IsometricUnitManager : MonoBehaviour
         {
             unitUseAbilityActive = !unitUseAbilityActive;
             unitMoveActive = false;
+            grid.HighlightTiles(grid.GetTilesInRange(selectedUnit.res.activeAbility.abilityRange, selectedUnit.currentTile), unitUseAbilityActive);
             OnActionChanged.Invoke();
         }
     }
@@ -229,9 +230,11 @@ public class IsometricUnitManager : MonoBehaviour
                                 selectedUnit.UseActiveAbility(tile);
                             }
                         }
+                        grid.HighlightTiles(grid.GetTilesInRange(selectedUnit.res.activeAbility.abilityRange, selectedUnit.currentTile), false);
                         unitUseAbilityActive = false;
                         cursor.ChangeToNormalCursor();
                     }
+                    unitUseAbilityActive = false;
                 }
                 else if (selectedUnit.isAdjacentToEnemy(tile) && !selectedUnit.res.willAttack)
                 {
