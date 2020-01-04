@@ -15,6 +15,7 @@ public class IsometricUnitManager : MonoBehaviour
     public EndGame endCanvas;
 
     public AIBehaviour aiController;
+
     //move
     public Image turnColor;
 
@@ -36,15 +37,7 @@ public class IsometricUnitManager : MonoBehaviour
 
     public bool MoveActive { get { return unitMoveActive; } }
     public bool UseAbilityActive { get { return unitUseAbilityActive; } }
-
-
     
-
-
-    private void Awake()
-    {
-        //DontDestroyOnLoad(transform.gameObject);
-    }
 
     public void SetNewUnitDirection(float d)
     {
@@ -333,6 +326,7 @@ public class IsometricUnitManager : MonoBehaviour
         {
             endCanvas.gameObject.SetActive(true);
             endCanvas.SetText(playerWon);
+            aiController.GetComponent<MusicManager>().PlayWinMusic();
         }
     }
 

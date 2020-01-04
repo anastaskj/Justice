@@ -73,17 +73,56 @@ public class AIBehaviour : MonoBehaviour
                             //if you can, move and attack enemy
                             //if you cannot, go onto the next unit
                     //if you cannot, go onto the next unit
-                    
+                    //----------------------------------
         if(u.res.ActionPoints > 0)
         {
             //check if there is an enemy in a 3 tile range
             if (EnemiesInRange(u, 3) > 0) //if there is, check if you are already its neighbour
             {
-                //Debug.Log("in range");
                 Unit closest = ClosestEnemyUnit(u);
                 if (closest.currentTile.IsTileNeighbour(u.currentTile)) //if you are, check what type of neighbour you are
                 {
-                    AttackIfPossible(u, closest);
+                    if (!AttackIfPossible(u, closest))
+                    {
+                        foreach (IsometricTile t in u.currentTile.GetNeighbors())
+                        {
+                            if (t.unit && t.unit.champ.playerNumber != u.champ.playerNumber) //if there's an enemy adjacent to you
+                            {
+                                if (!t.GetNeighbors(t.unit.facingDirection).Contains(u.currentTile)) //if you are not at the front of the unit
+                                {
+                                    u.SetAttackTile(t); //attack
+                                    u.res.willAttack = true;
+                                    return;
+                                }
+                            }
+                        }
+                    }
+
+                    //IsometricTile[] tiles1 = closest.currentTile.GetNeighbors();
+                    //IsometricTile[] tiles2 = closest.currentTile.GetNeighbors(closest.facingDirection);
+                    //IsometricTile[] newTiles = tiles1.Except(tiles2).ToArray();
+
+                    //if (newTiles.Contains(u.currentTile)) //if you're not at the front of an enemy
+                    //{
+                    //    u.SetAttackTile(closest.currentTile); //attack
+                    //    u.res.willAttack = true;
+                    //}
+                    //else //if you're at the front of an enemy
+                    //{
+
+                    //    foreach (IsometricTile t in u.currentTile.GetNeighbors())
+                    //    {
+                    //        if (t.unit && t.unit.champ.playerNumber != u.champ.playerNumber) //if there's an enemy adjacent to you
+                    //        {
+                    //            if (!t.GetNeighbors(t.unit.facingDirection).Contains(u.currentTile)) //if you are not at the front of the unit
+                    //            {
+                    //                u.SetAttackTile(t); //attack
+                    //                u.res.willAttack = true;
+                    //                return;
+                    //            }
+                    //        }
+                    //    }
+                    //}
                 }
                 else
                 {
@@ -111,7 +150,7 @@ public class AIBehaviour : MonoBehaviour
         }
     }
 
-    void AttackIfPossible(Unit u, Unit closest)
+    bool AttackIfPossible(Unit u, Unit closest)
     {
         IsometricTile[] tiles1 = closest.currentTile.GetNeighbors();
         IsometricTile[] tiles2 = closest.currentTile.GetNeighbors(closest.facingDirection);
@@ -121,7 +160,9 @@ public class AIBehaviour : MonoBehaviour
         {
             u.SetAttackTile(closest.currentTile); //attack
             u.res.willAttack = true;
+            return true;
         }
+        return false;
     }
 
 
@@ -185,7 +226,7 @@ public class AIBehaviour : MonoBehaviour
 
         while (t == null)
         {
-            for (int i = 0; i < rand; i++)
+            for (int i = 0; i < rand+1; i++)
             {
                 if (tiles[i].CostToMove < 2)
                 {
@@ -245,7 +286,6 @@ public class AIBehaviour : MonoBehaviour
         }
         else
         {
-            Debug.Log("hmm");
             return null;
         }
         //List<IsometricTile> tiles = InitializeTactic();

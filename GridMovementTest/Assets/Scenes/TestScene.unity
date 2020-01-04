@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4907,7 +4907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &640596304
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10898,17 +10898,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1395323269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01a8608eb1dfdfd48a8b79f1073e9f5a, type: 3}
+  m_Script: {fileID: 11500000, guid: b745abfaa0bfbdb4d861c81e9a740901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1395323272}
-  unitMove: []
-  unitAttack: []
-  unitDeath: []
-  unitAbility: []
   musicFiles:
+  - {fileID: 8300000, guid: 2f2dceaffaadc4048b69bb8883974139, type: 3}
+  - {fileID: 8300000, guid: f6f37ffbb34f5c04e886993065c6dac4, type: 3}
   - {fileID: 8300000, guid: 9f8d8ff8546ce9341bbfb5003e1a4333, type: 3}
-  - {fileID: 8300000, guid: 9f8d8ff8546ce9341bbfb5003e1a4333, type: 3}
+  winMusicFiles:
+  - {fileID: 8300000, guid: e0133e13a3053864aaa1dee84b9ecabb, type: 3}
 --- !u!1 &1404858126
 GameObject:
   m_ObjectHideFlags: 0
