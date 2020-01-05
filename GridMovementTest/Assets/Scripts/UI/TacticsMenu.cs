@@ -53,7 +53,10 @@ public class TacticsMenu : MonoBehaviour
 
     public void SetTactic()
     {
-        grid.ShowTacticPattern(unitManager.selectedUnit.possibleTiles, false);
+        if (IsometricMetrics.state != BattleState.SETUP )
+        {
+            grid.ShowTacticPattern(unitManager.selectedUnit.possibleTiles, false);
+        }
         tacticsManager.SetTactic(unitManager.selectedUnit, activeTactic);
         Close();
         unitManager.selectedUnit.InitializeTactic();

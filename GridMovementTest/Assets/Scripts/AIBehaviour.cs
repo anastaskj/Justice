@@ -82,9 +82,9 @@ public class AIBehaviour : MonoBehaviour
                 Unit closest = ClosestEnemyUnit(u);
                 if (closest.currentTile.IsTileNeighbour(u.currentTile)) //if you are, check what type of neighbour you are
                 {
-                    if (!AttackIfPossible(u, closest))
+                    if (!AttackIfPossible(u, closest)) //if you cannot attack the "closest" enemy from your current location
                     {
-                        foreach (IsometricTile t in u.currentTile.GetNeighbors())
+                        foreach (IsometricTile t in u.currentTile.GetNeighbors()) //check for another close enemy
                         {
                             if (t.unit && t.unit.champ.playerNumber != u.champ.playerNumber) //if there's an enemy adjacent to you
                             {
@@ -135,7 +135,7 @@ public class AIBehaviour : MonoBehaviour
                     }
                 }
             }
-            else //if there is not, check if you can move 2 tiles along the unit's tactic
+            else //if there is not, check if you can move along the unit's tactic
             {
                 if (canMoveThroughTactic(u)) //if you can, move and go onto the next unit
                 {
@@ -226,7 +226,7 @@ public class AIBehaviour : MonoBehaviour
 
         while (t == null)
         {
-            for (int i = 0; i < rand+1; i++)
+            for (int i = 0; i < rand; i++)
             {
                 if (tiles[i].CostToMove < 2)
                 {
