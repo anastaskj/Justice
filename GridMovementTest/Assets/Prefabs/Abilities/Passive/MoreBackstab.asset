@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 2
   abilityName: Ripper
-  abilityDescription: This unit deals bonus damage while backstabbing.
+  abilityDescription: Attacks deal bonus damage while backstabbing.
   sprite: {fileID: 21300000, guid: d359612c71a4a634bb65052e21d04856, type: 3}
   dmgIncrease: 1

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 0
   abilityName: Mighty
-  abilityDescription: This unit's attacks push the enemy back 1 tile.
+  abilityDescription: Attacks push the enemy back 1 tile.
   sprite: {fileID: 21300000, guid: e650519fe4a8eb446b7c63d1bf5d1362, type: 3}

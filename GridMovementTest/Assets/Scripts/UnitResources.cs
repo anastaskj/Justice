@@ -51,6 +51,14 @@ public class UnitResources : MonoBehaviour
         return maxHealth;
     }
 
+    public void SetMaxHealth(int value)
+    {
+        if (value > 0)
+        {
+            maxHealth = value;
+        }
+    }
+
     public UnityEvent OnValueChanged = new UnityEvent();
 
 

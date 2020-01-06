@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AIBehaviour
     - AbilityDetailsUI
     - AbilityUIItem
+    - ApplicationController
     - AudioManager
     - CameraMovement
     - CanBeDamagedOnce
@@ -211,6 +212,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12750}
     - Class: 114
       Script: {instanceID: 12768}
+    - Class: 114
+      Script: {instanceID: 25392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -906,6 +909,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ApplicationController
   platform: 5
   scenePathNames:
   - Assets/Scenes/TestScene.unity

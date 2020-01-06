@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 0
   abilityName: Mob Leader
-  abilityDescription: After this unit attacks, all allies adjacent to the attacked
-    unit also attack.
+  abilityDescription: After an attack, all allies adjacent to the attacker also attack.
   sprite: {fileID: 21300000, guid: 4f56c56a388d3bf45b75ee4d9c7f1e18, type: 3}

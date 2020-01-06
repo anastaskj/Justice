@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 3
   abilityName: Invigorated
-  abilityDescription: This unit restores health at the end of each turn
+  abilityDescription: Eestores health at the end of each turn
   sprite: {fileID: 21300000, guid: c50561cb3f93f5a48b1298cad919ac5f, type: 3}
   healValue: 1
