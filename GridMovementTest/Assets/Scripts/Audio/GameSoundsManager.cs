@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class GameSoundsManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    AudioSource source;
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField]
+    AudioClip[] buttonClick;
+
+    public void ButtonClickSound()
     {
-        
+        int rand = Random.Range(0, buttonClick.Length);
+        source.PlayOneShot(buttonClick[rand]);
     }
 }

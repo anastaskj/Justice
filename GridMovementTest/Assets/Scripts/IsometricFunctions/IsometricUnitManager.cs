@@ -8,6 +8,9 @@ using UnityEngine.Events;
 public class IsometricUnitManager : MonoBehaviour
 {
     //temp
+    [SerializeField] MusicManager musicController;
+    [SerializeField] GameSoundsManager gameSoundController;
+
     public Champion[] teams;
 
     public IsometricGrid grid;
@@ -83,6 +86,8 @@ public class IsometricUnitManager : MonoBehaviour
         currentPlayer = 1;
         //endCanvas.gameObject.SetActive(false);
     }
+    
+
     void Update()
     {
         if (!EventSystem.current.IsPointerOverGameObject())
@@ -109,6 +114,10 @@ public class IsometricUnitManager : MonoBehaviour
         else
         {
             cursor.ChangeToNormalCursor();
+            if (Input.GetMouseButtonDown(0))
+            {
+                gameSoundController.ButtonClickSound();
+            }
         }
     }
 
@@ -326,7 +335,7 @@ public class IsometricUnitManager : MonoBehaviour
         {
             endCanvas.gameObject.SetActive(true);
             endCanvas.SetText(playerWon);
-            aiController.GetComponent<MusicManager>().PlayWinMusic();
+            musicController.PlayWinMusic();
         }
     }
 
@@ -387,6 +396,14 @@ public class IsometricUnitManager : MonoBehaviour
         for (float t = 0f; t < 5; t += Time.deltaTime)
         {
             yield return null;
+        }
+        foreach (Unit u in teams[0].team)
+        {
+            if (u.gameObject.activeSelf)
+            {
+                CarryOutTurn(u);
+                u.ResetTurn();
+            }
         }
         aiController.PerformAITurn();
     }

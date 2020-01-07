@@ -538,6 +538,7 @@ public class Unit : MonoBehaviour
             }
         }
         triggerAbility(AbilityTrigger.ON_END_TURN);
+        
     }
 
     public void StartMovement(IEnumerator coroutine) 

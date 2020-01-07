@@ -1,0 +1,3235 @@
+fileFormatVersion: 2
+guid: 1e197ed2ad895ec4890068d6075e7bd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7632321023565456736
+    second: hydra_0
+  - first:
+      213: 3121641801295947864
+    second: hydra_1
+  - first:
+      213: 5626851662354548677
+    second: hydra_2
+  - first:
+      213: -7686424607771205670
+    second: hydra_3
+  - first:
+      213: 4046447117106120092
+    second: hydra_4
+  - first:
+      213: 4426126950689252744
+    second: hydra_5
+  - first:
+      213: -5134241534536891836
+    second: hydra_6
+  - first:
+      213: -423030711824396779
+    second: hydra_7
+  - first:
+      213: 8295839068423672655
+    second: hydra_8
+  - first:
+      213: 2696167348409678555
+    second: hydra_9
+  - first:
+      213: -3482213122739259464
+    second: hydra_10
+  - first:
+      213: -4070379956588385842
+    second: hydra_11
+  - first:
+      213: -7612315479508171824
+    second: hydra_12
+  - first:
+      213: -4676044986616657930
+    second: hydra_13
+  - first:
+      213: 5505359173053790195
+    second: hydra_14
+  - first:
+      213: -6612196302957983531
+    second: hydra_15
+  - first:
+      213: 6973552426472973680
+    second: hydra_16
+  - first:
+      213: -3403072170700580382
+    second: hydra_17
+  - first:
+      213: -7981036181851601453
+    second: hydra_18
+  - first:
+      213: 1937323168025685799
+    second: hydra_19
+  - first:
+      213: 8652672696195817131
+    second: hydra_20
+  - first:
+      213: -2479893217715734945
+    second: hydra_21
+  - first:
+      213: 2377669753198580910
+    second: hydra_22
+  - first:
+      213: 38181030316900243
+    second: hydra_23
+  - first:
+      213: 3955794624123648747
+    second: hydra_24
+  - first:
+      213: 8852150001669454336
+    second: hydra_25
+  - first:
+      213: -2756929699946936445
+    second: hydra_26
+  - first:
+      213: -705297532111174274
+    second: hydra_27
+  - first:
+      213: 3913894881322657360
+    second: hydra_28
+  - first:
+      213: 283804688160163236
+    second: hydra_29
+  - first:
+      213: 4205502556900424398
+    second: hydra_30
+  - first:
+      213: 2940869687181232913
+    second: hydra_31
+  - first:
+      213: -7627672237222766388
+    second: hydra_32
+  - first:
+      213: 8836969703736141136
+    second: hydra_33
+  - first:
+      213: 3423768961420308976
+    second: hydra_34
+  - first:
+      213: 5764113636058138614
+    second: hydra_35
+  - first:
+      213: 5341230210991535359
+    second: hydra_36
+  - first:
+      213: -7013231627390662825
+    second: hydra_37
+  - first:
+      213: 3125566093743277867
+    second: hydra_38
+  - first:
+      213: 4892532691546320811
+    second: hydra_39
+  - first:
+      213: 3884111678358950695
+    second: hydra_40
+  - first:
+      213: 839292928534065561
+    second: hydra_41
+  - first:
+      213: 659283546669169106
+    second: hydra_42
+  - first:
+      213: 7076843678282820588
+    second: hydra_43
+  - first:
+      213: -6450882702908807155
+    second: hydra_44
+  - first:
+      213: 2131170890070824129
+    second: hydra_45
+  - first:
+      213: 5143219258521632126
+    second: hydra_46
+  - first:
+      213: 4478948495883333778
+    second: hydra_47
+  - first:
+      213: 2476166616420103849
+    second: hydra_48
+  - first:
+      213: -227089523147574130
+    second: hydra_49
+  - first:
+      213: 3438281181127640584
+    second: hydra_50
+  - first:
+      213: 4542175626929674697
+    second: hydra_51
+  - first:
+      213: 5809125800254882060
+    second: hydra_52
+  - first:
+      213: 2219459926033629077
+    second: hydra_53
+  - first:
+      213: 8840864532345219707
+    second: hydra_54
+  - first:
+      213: 9155273271191667192
+    second: hydra_55
+  - first:
+      213: -7111974834722436343
+    second: hydra_56
+  - first:
+      213: -2848546163820834602
+    second: hydra_57
+  - first:
+      213: 4326378616994953629
+    second: hydra_58
+  - first:
+      213: -4070980436967849137
+    second: hydra_59
+  - first:
+      213: 9040289359632669314
+    second: hydra_60
+  - first:
+      213: 1985319578179261645
+    second: hydra_61
+  - first:
+      213: 7407438521512775285
+    second: hydra_62
+  - first:
+      213: 6175963382600575375
+    second: HydraWalk1
+  - first:
+      213: 549489419529834293
+    second: HydraWalk2
+  - first:
+      213: -267644352868067578
+    second: HydraWalk3
+  - first:
+      213: 3528204760595000622
+    second: HydraWalk4
+  - first:
+      213: 4536953278611484729
+    second: HydraWalk5
+  - first:
+      213: -1432756774376016166
+    second: HydraWalk6
+  - first:
+      213: 7130832908339140777
+    second: HydraWalk7
+  - first:
+      213: 8156220188504633220
+    second: HydraAttack1
+  - first:
+      213: 1961638704368112010
+    second: HydraAttack2
+  - first:
+      213: 7666531750071253729
+    second: HydraAttack3
+  - first:
+      213: 887314655867718377
+    second: HydraAttack4
+  - first:
+      213: 2914132152816378083
+    second: HydraAttack5
+  - first:
+      213: 6369675109188757278
+    second: HydraAttack6
+  - first:
+      213: 2097041980099567297
+    second: hydra_76
+  - first:
+      213: -7546389880145545555
+    second: hydra_77
+  - first:
+      213: -3916451535127642042
+    second: hydra_78
+  - first:
+      213: 3822480880433004966
+    second: hydra_79
+  - first:
+      213: 1993916109861667390
+    second: hydra_80
+  - first:
+      213: -7207890865487040513
+    second: hydra_81
+  - first:
+      213: -2026739804271003888
+    second: hydra_82
+  - first:
+      213: 8248057488402828398
+    second: hydra_83
+  - first:
+      213: 6714055789366490619
+    second: HydraDeath1
+  - first:
+      213: -6847420968822188671
+    second: HydraDeath2
+  - first:
+      213: -7913394422678745971
+    second: HydraDeath3
+  - first:
+      213: -988404820384016182
+    second: hydra_87
+  - first:
+      213: 8626280905031168359
+    second: hydra_88
+  - first:
+      213: -3396794700013836423
+    second: hydra_89
+  - first:
+      213: -4714002258538436493
+    second: hydra_90
+  - first:
+      213: -1067438766774943394
+    second: hydra_91
+  - first:
+      213: -3544277192514641341
+    second: hydra_92
+  - first:
+      213: 5234725659390683272
+    second: hydra_93
+  - first:
+      213: -3640032329571639404
+    second: HydraDeath4
+  - first:
+      213: 7991868630039755532
+    second: hydra_95
+  - first:
+      213: -9202040018494543220
+    second: hydra_96
+  - first:
+      213: 5391476050622470041
+    second: hydra_97
+  - first:
+      213: -5750060767530953116
+    second: hydra_98
+  - first:
+      213: -3809412615257611656
+    second: hydra_99
+  - first:
+      213: 8471430490022891442
+    second: HydraDeath5
+  - first:
+      213: 1206008445171289588
+    second: HydraDeath6
+  - first:
+      213: 3366480284545715671
+    second: hydra_102
+  - first:
+      213: 7497054609793812779
+    second: hydra_103
+  - first:
+      213: 6452454598188772080
+    second: hydra_104
+  - first:
+      213: -113477905192105125
+    second: hydra_105
+  - first:
+      213: -2739277033756954738
+    second: hydra_106
+  - first:
+      213: 4046132396259004542
+    second: hydra_107
+  - first:
+      213: 1341445270319543062
+    second: hydra_108
+  - first:
+      213: 7842028772577903782
+    second: hydra_109
+  - first:
+      213: -7643485397020244770
+    second: hydra_110
+  - first:
+      213: -2521434656404559354
+    second: hydra_111
+  - first:
+      213: 1553320630000812590
+    second: hydra_112
+  - first:
+      213: 7224975476985743446
+    second: hydra_113
+  - first:
+      213: -8633001189869849486
+    second: hydra_114
+  - first:
+      213: 3209379991211452099
+    second: hydra_115
+  - first:
+      213: 3150957650826015153
+    second: hydra_116
+  - first:
+      213: -7740191576413293327
+    second: hydra_117
+  - first:
+      213: 3006274161890706175
+    second: hydra_118
+  - first:
+      213: 1442842812290007606
+    second: hydra_119
+  - first:
+      213: 2001783642033044212
+    second: hydra_120
+  - first:
+      213: -10927237285208097
+    second: hydra_121
+  - first:
+      213: 6538603738839100167
+    second: hydra_122
+  - first:
+      213: -966312180483105224
+    second: hydra_123
+  - first:
+      213: 8125734990116209408
+    second: hydra_124
+  - first:
+      213: -2575769537082479358
+    second: hydra_125
+  - first:
+      213: 3686982075352064956
+    second: hydra_126
+  - first:
+      213: -3032971040207878831
+    second: hydra_127
+  - first:
+      213: -8085949982532465082
+    second: hydra_128
+  - first:
+      213: -1487623104993498096
+    second: hydra_129
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hydra_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 612
+        width: 70
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f240bc7ed45b044691595607232d9e1
+      internalID: -7632321023565456736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 612
+        width: 73
+        height: 85
+      alignment: 9
+      pivot: {x: 0.50582844, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ed8648750e52345bae2edda47eafea
+      internalID: 3121641801295947864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 612
+        width: 70
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5121565, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff5d3e2a612ec7498b7c8a3558c50af
+      internalID: 5626851662354548677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 612
+        width: 74
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d8d54cb54c06e498e719a3a5a7b5b7
+      internalID: -7686424607771205670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 612
+        width: 72
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eef46a01db231c46a17487ad46db0e2
+      internalID: 4046447117106120092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 612
+        width: 69
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5123326, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73457c5185311f4c901b6931c864934
+      internalID: 4426126950689252744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_6
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 612
+        width: 76
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2003ceeb332404d925805772e46a70
+      internalID: -5134241534536891836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 512
+        width: 72
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c052cc5a05cf1c94bb6062ef0689c897
+      internalID: -423030711824396779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 512
+        width: 74
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321d608d5aaaf064fa7a5b6a3a7d14d9
+      internalID: 8295839068423672655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 512
+        width: 70
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d321776b8d71d4190ba73b57dce4da
+      internalID: 2696167348409678555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 512
+        width: 73
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5116569, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeecc288196b1bb479b4da3961215e63
+      internalID: -3482213122739259464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 512
+        width: 73
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1643806a7d65b66438e062faa7714e15
+      internalID: -4070379956588385842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_12
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 512
+        width: 70
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86ad55dea75ff84d960756eda9778ff
+      internalID: -7612315479508171824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_13
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 512
+        width: 75
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f4008b4ea3cb448b71ef34ce6c8962
+      internalID: -4676044986616657930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 413
+        width: 71
+        height: 85
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1305b36fb2838ff4f9b0d133f66e99cc
+      internalID: 5505359173053790195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 413
+        width: 75
+        height: 85
+      alignment: 9
+      pivot: {x: 0.51701903, y: 0.2296968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee7ff25b2bcebf44a470911928335f9
+      internalID: -6612196302957983531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 475
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178c4f9ac2cb1fd41bc589a3483abf03
+      internalID: 6973552426472973680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 472
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ecb09bfccbdf84eaccad51c4b81eef
+      internalID: -3403072170700580382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 475
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c4265754e5a284bbaeae0dd252e504
+      internalID: -7981036181851601453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 475
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382766235039eeb4395e47cd7401e7f8
+      internalID: 1937323168025685799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 475
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67aca3b074e21b468961e83427b312c
+      internalID: 8652672696195817131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_21
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 465
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd86b5b2177689d40801dbdfeb385f91
+      internalID: -2479893217715734945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_22
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 465
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d89b041f4fd8947927878177ead868
+      internalID: 2377669753198580910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 465
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c56a9115c4bad488215bcf0e6cc060
+      internalID: 38181030316900243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_24
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 465
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff055f25090ea1f4397f053a248819cd
+      internalID: 3955794624123648747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 457
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50de15b87cadb844bfc609ab0fe3314
+      internalID: 8852150001669454336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 457
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539772d1599210f47b456133ac9e544b
+      internalID: -2756929699946936445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 457
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd94dd21e665b3840bbd3782fbf38ba4
+      internalID: -705297532111174274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 457
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25686526ad4f4c4785be0661ca886c3
+      internalID: 3913894881322657360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_29
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 457
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fac472c3649dc45a8f41d09db6c510
+      internalID: 283804688160163236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_30
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 457
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eea9c9205442d4eb1282836324a640
+      internalID: 4205502556900424398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 457
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c9a20517e31624dbc2a57f8510ad14
+      internalID: 2940869687181232913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_32
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 457
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e54daa921777c846ac46fef2df45fd4
+      internalID: -7627672237222766388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_33
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 457
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cb6f6c8f81bd141bf24095caf79cd8
+      internalID: 8836969703736141136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_34
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 454
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c03f2c37bdeacc4bac9173fc9581865
+      internalID: 3423768961420308976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_35
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 457
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4477ebdfde8abc242bd1a6c6d152bae1
+      internalID: 5764113636058138614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_36
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 457
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c8ff3288e788489ae7bb1f0bd9549
+      internalID: 5341230210991535359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_37
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 457
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713a9dfce77f2b346928a1a4ebf63b22
+      internalID: -7013231627390662825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_38
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 457
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b572e07a24f7c744a13371f8db83c3d
+      internalID: 3125566093743277867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_39
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 457
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067cb9e2c43d8364491dab35735fa8ba
+      internalID: 4892532691546320811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_40
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 457
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73b180d59871cb4591d8ded7ed585fd
+      internalID: 3884111678358950695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_41
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 457
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a989e855831074b4da81b58cd7078974
+      internalID: 839292928534065561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_42
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 454
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b437635a0efbb4bb164f604d0608e8
+      internalID: 659283546669169106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_43
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 457
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e8057f61b36604abf717e0c0f90e8b
+      internalID: 7076843678282820588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_44
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 441
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873282b826f09ff4e84548b4ee44c3b7
+      internalID: -6450882702908807155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_45
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 441
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d86cd1fb98666f438a353a10d00e187
+      internalID: 2131170890070824129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_46
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 439
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8856d72af050c7841b66a7290afabb32
+      internalID: 5143219258521632126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_47
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 441
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df24d79addb123c4d9088175939a90ae
+      internalID: 4478948495883333778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_48
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 441
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba0794b4e8eea94da38c89a00ae63a9
+      internalID: 2476166616420103849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_49
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 441
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e99e9ef9d626943938cfa1c2e53485
+      internalID: -227089523147574130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_50
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 438
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55db8a96e26a44bb6e5e1c25c1fee0
+      internalID: 3438281181127640584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_51
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 441
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dface7e7e80219c48b6d44fb1f61033d
+      internalID: 4542175626929674697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_52
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 441
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa63e22694b7ac4f90a62171a63ff2c
+      internalID: 5809125800254882060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_53
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 441
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db94ade988bb154e95fb00bcf4e68f5
+      internalID: 2219459926033629077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_54
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 441
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b9404b1f0582745a61dfd1db58e2dd
+      internalID: 8840864532345219707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_55
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 441
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899c439d8a5797c44988f00448830679
+      internalID: 9155273271191667192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_56
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 441
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b2e841e3581c24bb7a9c41bc735e2d
+      internalID: -7111974834722436343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_57
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 441
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ad2fec655f90c419a09388dad5f737
+      internalID: -2848546163820834602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_58
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 441
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b00f8fdb93b5479ac04173a348a54
+      internalID: 4326378616994953629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_59
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 420
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c0651842d4a224fb01f6d13f3eddcb
+      internalID: -4070980436967849137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_60
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 420
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae3508beff02444e925b717a78409ab
+      internalID: 9040289359632669314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_61
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 420
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e40cbfa13eaf4abe8d38b8f6655a2
+      internalID: 1985319578179261645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_62
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 420
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a468891313bfa47a7dbdc14f226e75
+      internalID: 7407438521512775285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraWalk1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 311
+        width: 72
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5219762, y: 0.2166599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1268335117f5fd4ebafa6c9f36aac4e
+      internalID: 6175963382600575375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraWalk2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 311
+        width: 71
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2166599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443d76aad966562499a9268fdd096811
+      internalID: 549489419529834293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraWalk3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 311
+        width: 66
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.2166599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77fe99a98b041647af0316abdb99fa3
+      internalID: -267644352868067578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraWalk4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 313
+        width: 71
+        height: 85
+      alignment: 9
+      pivot: {x: 0.49554315, y: 0.2166599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ea052b767b42243a2d92f01d50022c
+      internalID: 3528204760595000622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraWalk5
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 312
+        width: 81
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2166599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ef185cfad50fc4fb56361910f1ba5f
+      internalID: 4536953278611484729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraWalk6
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 312
+        width: 76
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2166599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5978dc7208bbd6443a3047dc0ee1ad7d
+      internalID: -1432756774376016166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraWalk7
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 311
+        width: 76
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5064071, y: 0.2166599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbd3826ddebe5a42bd138beaa2cd296
+      internalID: 7130832908339140777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraAttack1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 203
+        width: 73
+        height: 86
+      alignment: 9
+      pivot: {x: 0.50906986, y: 0.25363868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a28e781bf2e6843923727ab53789a6
+      internalID: 8156220188504633220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraAttack2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 194
+        width: 87
+        height: 91
+      alignment: 9
+      pivot: {x: 0.48477927, y: 0.33265704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22501d639e870c4cab74c801ad33ac2
+      internalID: 1961638704368112010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraAttack3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 183
+        width: 125
+        height: 106
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.38132232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64968a62322002f409075ea76b9352ff
+      internalID: 7666531750071253729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraAttack4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 178
+        width: 123
+        height: 111
+      alignment: 9
+      pivot: {x: 0.43002245, y: 0.39859778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f0aee615ab60248a49b8806e40c7e7
+      internalID: 887314655867718377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraAttack5
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 198
+        width: 101
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4278903, y: 0.3038236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fc9fd7f3ac23548a6c021585203741
+      internalID: 2914132152816378083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraAttack6
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 202
+        width: 85
+        height: 76
+      alignment: 9
+      pivot: {x: 0.47663215, y: 0.30834058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5002a15c067804c895988c6b8dbdeb
+      internalID: 6369675109188757278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_76
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 204
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3a673fb69aa0042bff370c11eb02e9
+      internalID: 2097041980099567297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_77
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 98
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612c43b04bfa06449b67f4342ae3aa77
+      internalID: -7546389880145545555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_78
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab22dd9cd0a50064d82cc1e847e75ca3
+      internalID: -3916451535127642042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_79
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 98
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e23bc67781ff454d8a9b2ceca4fb496
+      internalID: 3822480880433004966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_80
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 98
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20afdf99bb89f534db5acf784ac9d3f0
+      internalID: 1993916109861667390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_81
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 98
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f7d27dacec9a249823094c696bbbf1
+      internalID: -7207890865487040513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_82
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 98
+        width: 59
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3317128a57297ea4bb640f14c71fef50
+      internalID: -2026739804271003888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_83
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 81
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b78ddea300dfe469a56594a3d031b1
+      internalID: 8248057488402828398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraDeath1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 54
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5122611, y: 0.27590588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b13365f71cb974ba601b98cec58a55
+      internalID: 6714055789366490619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraDeath2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 3
+        width: 62
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5213579, y: 0.29552913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279ccfcf5a4dec94b91ae5fa7e504c2c
+      internalID: -6847420968822188671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraDeath3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 5
+        width: 70
+        height: 65
+      alignment: 9
+      pivot: {x: 0.54729223, y: 0.2962782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c45f8652d62cf44bba5e0aaa377ed3
+      internalID: -7913394422678745971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_87
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 64
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68e36551bdf4cf439e23a7a45b05287
+      internalID: -988404820384016182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_88
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa4d095360ff2647b1a5dba684445a8
+      internalID: 8626280905031168359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_89
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36809badc402c30418a8c9f4368b5abc
+      internalID: -3396794700013836423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_90
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5102b3947797f2449805b4b629cdfb2e
+      internalID: -4714002258538436493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_91
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 64
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afc60fc4ac2ced4a9ce7cee6d0b73a8
+      internalID: -1067438766774943394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_92
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 64
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a253a8a9e6872847a2dca0828aadf57
+      internalID: -3544277192514641341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_93
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86b1246523ffcb48980634f5ddd1801
+      internalID: 5234725659390683272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraDeath4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 6
+        width: 75
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5882792, y: 0.34350437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f93cfa97f7688841a6903dca956e2a2
+      internalID: -3640032329571639404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_95
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 43
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5d71ba9a6ba2841be129764d6bac92
+      internalID: 7991868630039755532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_96
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 46
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dfe9479646862418315c24cddef5d8
+      internalID: -9202040018494543220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_97
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 46
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b8a05282a5bb6418930768ebd213a0
+      internalID: 5391476050622470041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_98
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 46
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875bffd32c2d5474a916ac85bfde1605
+      internalID: -5750060767530953116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_99
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 46
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8b796f244d03f4aac4a9cc296159aa
+      internalID: -3809412615257611656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraDeath5
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 7
+        width: 79
+        height: 39
+      alignment: 9
+      pivot: {x: 0.6257139, y: 0.4490699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4567d7ad8d336344910429c39e001ec
+      internalID: 8471430490022891442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HydraDeath6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 7
+        width: 80
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6406959, y: 0.6324188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe77862306611641b3198917a95d65f
+      internalID: 1206008445171289588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_102
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 30
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33b869a8dc4bd047b8f3ac0e17a3968
+      internalID: 3366480284545715671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_103
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 30
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa3b89f05ff72479878e9431d67aa8
+      internalID: 7497054609793812779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_104
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 30
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79f4091418c0544ab059f1a6b4c4212
+      internalID: 6452454598188772080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_105
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730988b213c43e642a67e37c6faa84f0
+      internalID: -113477905192105125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_106
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 27
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68bddfdc122d2f40b34c8c116be7be7
+      internalID: -2739277033756954738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_107
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 30
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e406aa717bb7f4c8859f3c29f02ce9
+      internalID: 4046132396259004542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_108
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e985539f430c7114888b8dc5801fd326
+      internalID: 1341445270319543062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_109
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 30
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38e58c72bdc98c49b3769b1156a0554
+      internalID: 7842028772577903782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_110
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 28
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62d22ab7b480a447830f3faa0f3285a
+      internalID: -7643485397020244770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_111
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 27
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24c24f5fa42fae4abe42e89beaa91a9
+      internalID: -2521434656404559354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_112
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a6cba107df64b4e90dcb8eca70b54f
+      internalID: 1553320630000812590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_113
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 30
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6ec20a802931a4180bac37e2c86879
+      internalID: 7224975476985743446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_114
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 30
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d48636caa7f8814ca256ba229e24052
+      internalID: -8633001189869849486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_115
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fefba80866a984cbe3a34ebb056b55
+      internalID: 3209379991211452099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_116
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f018f5e798e5024184c29e6948d1175
+      internalID: 3150957650826015153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_117
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 11
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7340931cc94630f46ac73e4db5946bc9
+      internalID: -7740191576413293327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_118
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a4c62491cda594b8a1fe2b449a5453
+      internalID: 3006274161890706175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_119
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fddb82437f91e54896e8754dcec075d
+      internalID: 1442842812290007606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_120
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 14
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884cdd57a57b8594ab2d08c6032e3e56
+      internalID: 2001783642033044212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_121
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d8c971a3ad0eb468579c9a876022c5
+      internalID: -10927237285208097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_122
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 11
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277d50d3efff7a34dbc0e86bc3c1134c
+      internalID: 6538603738839100167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_123
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abd890d9e878a74484bb81fe1fa0a57
+      internalID: -966312180483105224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_124
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d24e620bac8ad94684d1a3160ea7e91
+      internalID: 8125734990116209408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_125
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbdee8f88769ea4f929f407ed4b18e6
+      internalID: -2575769537082479358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_126
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 14
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcd62ab8b67789408e476801081e34e
+      internalID: 3686982075352064956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_127
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4ae25aedda04c46a95498bf2bdcdae
+      internalID: -3032971040207878831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_128
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 14
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9bb3127b559b44eb267fe7884837b1
+      internalID: -8085949982532465082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydra_129
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 14
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc157f4952a31f428639ea5520876ff
+      internalID: -1487623104993498096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

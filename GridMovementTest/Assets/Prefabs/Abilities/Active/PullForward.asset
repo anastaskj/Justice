@@ -16,4 +16,4 @@ MonoBehaviour:
   abilityName: Snatch
   abilityDescription: This unit pulls a target 1 tile towards them.
   sprite: {fileID: 21300000, guid: 7020792de362a814f85fb70b348cb61a, type: 3}
-  abilityRange: 2
+  abilityRange: 3

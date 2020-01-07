@@ -7,7 +7,7 @@ public class StunEnemy : UnitActiveAbility
 {
     public override void ExecuteAbility(Unit abilityUser, IsometricTile target)
     {
-        if (target != null && target.unit.champ.playerNumber != abilityUser.champ.playerNumber) //enemy units only
+        if (target != null && target.unit && target.unit.champ.playerNumber != abilityUser.champ.playerNumber) //enemy units only
         {
             target.unit.res.ActionPoints = 0;
         }

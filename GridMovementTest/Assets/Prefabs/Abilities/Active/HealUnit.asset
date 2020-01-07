@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: HealUnit
   m_EditorClassIdentifier: 
   trigger: 4
-  abilityName: Lay Hands
-  abilityDescription: This unit heals a friendly target by 2 points
-  sprite: {fileID: 21300000, guid: e30c38ef788311d4db6aa62368ffaa0b, type: 3}
-  abilityRange: 6
+  abilityName: Overgrowth
+  abilityDescription: This unit's venomous blood magically heals an ally.
+  sprite: {fileID: 21300000, guid: ea4f877daebec664ca9f8205cf54cdd1, type: 3}
+  abilityRange: 3
   healValue: 2
