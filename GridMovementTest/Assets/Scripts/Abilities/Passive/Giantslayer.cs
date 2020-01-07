@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 [CreateAssetMenu(fileName = "Giantslayer", menuName = "Unit Abilities/Passive/Giantslayer")]
 public class Giantslayer : UnitAbility
@@ -14,7 +15,10 @@ public class Giantslayer : UnitAbility
         {
             if (defendant.res.GetMaxHealth() > abilityUser.res.GetMaxHealth() + 1 && defendant.res.GetCurrentHealth() > 0)
             {
-                defendant.TakeDamage(value);
+                if (!defendant.currentTile.GetNeighbors(defendant.facingDirection).Contains(abilityUser.currentTile))
+                {
+                    defendant.TakeDamage(value);
+                }
             }
         }
     }

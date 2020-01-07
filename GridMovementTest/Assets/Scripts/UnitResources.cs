@@ -131,10 +131,6 @@ public class UnitResources : MonoBehaviour
 
     public void GainShield(int value)
     {
-        if (currentHealth == maxHealth)
-        {
-            currentHealth++;
-
-        }
+        currentHealth++;
     }
 }

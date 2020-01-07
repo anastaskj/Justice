@@ -10,11 +10,8 @@ public class LimitHealing : UnitAbility
         Unit defendant = abilityUser.attackTile.unit;
         if (abilityUser.attackTile != null && defendant != null)
         {
-            Debug.Log("Hmm");
             int value = defendant.res.GetMaxHealth() - 1;
-            Debug.Log(value);
             defendant.res.SetMaxHealth(value);
-            Debug.Log(defendant.res.GetMaxHealth());
         }
     }
 }

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b34b6da5e148f47ab5325fd24ee8e9, type: 3}
+  m_Name: Bestow
+  m_EditorClassIdentifier: 
+  trigger: 4
+  abilityName: Bestow
+  abilityDescription: This unit heals a friendly target by 1 point. This can overheal
+    into a shield.
+  sprite: {fileID: 21300000, guid: 75d686a2abf74854886f9b0e622b8f70, type: 3}
+  abilityRange: 6
+  shieldValue: 1

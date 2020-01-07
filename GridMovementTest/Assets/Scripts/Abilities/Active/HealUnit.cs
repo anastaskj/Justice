@@ -10,7 +10,7 @@ public class HealUnit : UnitActiveAbility
 
     public override void ExecuteAbility(Unit abilityUser, IsometricTile target)
     {
-        if (target != null && target.unit.champ.playerNumber == abilityUser.champ.playerNumber) //friendly only
+        if (target != null && target.unit != null && target.unit.champ.playerNumber == abilityUser.champ.playerNumber) //friendly only
         {
             target.unit.RegainHealth(healValue);
         }

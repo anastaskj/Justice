@@ -225,7 +225,7 @@ MonoBehaviour:
   hasTakenDamage: 0
   usedAbility: 0
   playerColor: {r: 0, g: 0, b: 0, a: 0}
-  activeAbility: {fileID: 11400000, guid: 69ca1864eea2c814fb818f5fddf67c7b, type: 2}
+  activeAbility: {fileID: 11400000, guid: 5f3546251008c4549af5586b4da985f5, type: 2}
   damageToBeTaken: 0
   OnValueChanged:
     m_PersistentCalls:
