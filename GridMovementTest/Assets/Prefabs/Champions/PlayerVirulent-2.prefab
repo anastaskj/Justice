@@ -49,6 +49,6 @@ MonoBehaviour:
   - {fileID: -7251937329128881099, guid: dfc2c500481ef7844a1680aabbca9ddb, type: 3}
   - {fileID: -7251937329128881099, guid: 6c0b1f2741f784b49a57e9c73a5d08df, type: 3}
   - {fileID: -7251937329128881099, guid: c8bcbe9ed9d23e34db1224e494ee7750, type: 3}
-  playerNumber: 2
+  playerNumber: 1
   isActivePlayer: 1
   teamSize: 0

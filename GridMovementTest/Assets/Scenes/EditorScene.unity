@@ -1249,6 +1249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endText: {fileID: 17618588}
+  nextBattle: {fileID: 0}
+  quit: {fileID: 0}
 --- !u!224 &120647909
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6540,7 +6542,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 756623e33e6b2b14ba508a3bb3ad84e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40321e3da2cffb743a673220e3a6fda1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7099,7 +7101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -33.000244, y: -32.100098}
+  m_AnchoredPosition: {x: -33, y: -32.100098}
   m_SizeDelta: {x: -169.3, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956472322
@@ -10930,7 +10932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -143.49976, y: 33}
+  m_AnchoredPosition: {x: -143.5, y: 33}
   m_SizeDelta: {x: -294.8, y: -115.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443110735
@@ -16246,6 +16248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicController: {fileID: 1412033198}
   gameSoundController: {fileID: 310254825}
+  gameManager: {fileID: 0}
   teams:
   - {fileID: 981700773}
   - {fileID: 1821366852}
@@ -16253,6 +16256,7 @@ MonoBehaviour:
   endCanvas: {fileID: 120647908}
   aiController: {fileID: 1395323270}
   turnColor: {fileID: 0}
+  progressText: {fileID: 0}
   unitDetails: {fileID: 1181628598}
   OnSelectedUnitChanged:
     m_PersistentCalls:

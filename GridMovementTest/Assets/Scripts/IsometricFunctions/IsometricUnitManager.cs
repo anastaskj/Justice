@@ -340,6 +340,10 @@ public class IsometricUnitManager : MonoBehaviour
             endCanvas.SetText(playerWon);
             if (playerWon == 2)
             {
+                foreach (GameObject g in grid.panelsBattle)
+                {
+                    g.SetActive(false);
+                }
                 musicController.PlayWinMusic();
                 if (IsometricMetrics.progress < ProgressState.Final)
                 {

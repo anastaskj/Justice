@@ -108,7 +108,7 @@ MonoBehaviour:
   facingDirection: 1
   tactic: {fileID: 11400000, guid: 5a22e6d2e7e0305449bbd747fb4a76ae, type: 2}
   champ: {fileID: 0}
-  sprite: {fileID: 21300000, guid: d24232eaea0fddf45829492592ff9e56, type: 3}
+  sprite: {fileID: 21300000, guid: fd05d42b760c3bd4f9f4f8bf66e2a1af, type: 3}
   grid: {fileID: 0}
   manager: {fileID: 0}
   attackTile: {fileID: 0}

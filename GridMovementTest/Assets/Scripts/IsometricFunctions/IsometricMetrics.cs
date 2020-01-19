@@ -19,6 +19,7 @@ public static class IsometricMetrics
     public static int maxUnitsPerTeam = 5;
     public static BattleState state;
     public static ProgressState progress;
+    public static Factions chosenFaction;
 }
 
 public enum BattleState
@@ -28,7 +29,7 @@ public enum BattleState
 
 public enum Factions
 {
-    Kingdom, Virulent, Sands
+    Kingdom, Virulent
 }
 
 public enum ProgressState

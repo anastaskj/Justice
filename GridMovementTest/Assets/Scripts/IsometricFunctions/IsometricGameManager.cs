@@ -12,13 +12,15 @@ public class IsometricGameManager : MonoBehaviour
     public MusicManager musicManager;
     public SaveLoadMenu loadMenu;
     public ChampionManager champManager;
+    public FactionController factionController;
 
     public void StartGame()
     {
         loadMenu.LoadRandomMap();
         loadMenu.gameObject.SetActive(false);
 
-        champManager.InstantiateChampions(IsometricMetrics.progress, Factions.Kingdom);
+        factionController.GetChosenFaction();
+        champManager.InstantiateChampions(IsometricMetrics.progress, IsometricMetrics.chosenFaction);
 
         unitManager.BeginGame();
         musicManager.PlayMusic();
@@ -56,4 +58,6 @@ public class IsometricGameManager : MonoBehaviour
             writer.Write((byte)IsometricMetrics.progress);
         }
     }
+
+    
 }
