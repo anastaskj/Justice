@@ -113,7 +113,7 @@ MonoBehaviour:
   manager: {fileID: 0}
   attackTile: {fileID: 0}
   abilities:
-  - {fileID: 11400000, guid: 0db430d1deecb1149857f9abc565c802, type: 2}
+  - {fileID: 11400000, guid: 25ae5dcca3b1af64fb0814c50e6efb3b, type: 2}
   audio: {fileID: 19874835677544818}
 --- !u!114 &1017247919385553405
 MonoBehaviour:

@@ -5,8 +5,7 @@ using System.Linq;
 
 public class AIBehaviour : MonoBehaviour
 {
-    [SerializeField]
-    Champion champion;
+    public Champion champion;
     [SerializeField]
     IsometricGrid grid;
     [SerializeField]
@@ -36,7 +35,10 @@ public class AIBehaviour : MonoBehaviour
         {
             foreach (Unit u in champion.team)
             {
-                PerformAction(u);
+                if (u)
+                {
+                    PerformAction(u);
+                }
             }
             EndTurnAI();
         }
@@ -92,7 +94,7 @@ public class AIBehaviour : MonoBehaviour
                                 {
                                     u.SetAttackTile(t); //attack
                                     u.res.willAttack = true;
-                                    return;
+                                    break;
                                 }
                             }
                         }
@@ -127,7 +129,10 @@ public class AIBehaviour : MonoBehaviour
                 else
                 {
                     IsometricTile toMove = GenerateClosestPossibleTile(u); //move as close as possible to being a neighbour
-                    CommitMoveUnit(u, toMove);
+                    if (toMove)
+                    {
+                        CommitMoveUnit(u, toMove);
+                    }
                     closest = ClosestEnemyUnit(u);
                     if (closest.currentTile.IsTileNeighbour(u.currentTile)) //if you become a neighbour
                     {
@@ -143,9 +148,12 @@ public class AIBehaviour : MonoBehaviour
                     //CommitMoveUnit(u, toMove);
 
                     IsometricTile toMove = GenerateClosestPossibleTile(u);
-                    CommitMoveUnit(u, toMove);
+                    if (toMove)
+                    {
+                        CommitMoveUnit(u, toMove);
+                    }
                 }
-                return; //if you cannot, go onto the next unit
+                //return; //if you cannot, go onto the next unit
             }
         }
     }
@@ -194,7 +202,7 @@ public class AIBehaviour : MonoBehaviour
         int count = 0;
         foreach (IsometricTile t in grid.GetTilesInRange(range, u.currentTile))
         {
-            if (t.unit)
+            if (t && t.unit)
             {
                 if (t.unit.champ.playerNumber != u.champ.playerNumber)
                 {
@@ -222,18 +230,21 @@ public class AIBehaviour : MonoBehaviour
     {
         IsometricTile t = null;
         List<IsometricTile> tiles = u.InitializeTactic();
-        int rand = Random.Range(0, tiles.Count);
-
+        int counter = 0;
         while (t == null)
         {
-            for (int i = 0; i < rand; i++)
+            for (int i = 0; i < tiles.Count; i++)
             {
                 if (tiles[i].CostToMove < 2)
                 {
                     t = tiles[i];
                 }
+                counter++;
             }
-            rand = Random.Range(0, tiles.Count);
+            if (counter == tiles.Count-1)
+            {
+                break;
+            }
         }
         return t;
     }
@@ -387,6 +398,7 @@ public class AIBehaviour : MonoBehaviour
                 }
             }
         }
+
         return moveToRandomTile(unit);
     }
 

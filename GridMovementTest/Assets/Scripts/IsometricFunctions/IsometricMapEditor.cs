@@ -26,6 +26,8 @@ public class IsometricMapEditor : MonoBehaviour
         SetTerrainTypeIndex(0);
         activeFloraLevel = 0;
         IsometricMetrics.flora = features.floraPrefabs;
+
+        IsometricMetrics.editorMode = true;
     }
 
     void Update()

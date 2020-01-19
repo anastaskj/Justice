@@ -7667,7 +7667,7 @@ PrefabInstance:
         type: 3}
       propertyPath: team.Array.data[4]
       value: 
-      objectReference: {fileID: -7251937329128881099, guid: b54902cffe2e2764e962a295d3950503,
+      objectReference: {fileID: -7251937329128881099, guid: 73e9e04b0e7e50944badf0474b444dce,
         type: 3}
     - target: {fileID: 5671163050915500829, guid: 71b474af5ad5eb649b4de87152faa906,
         type: 3}
@@ -11052,6 +11052,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9f8d8ff8546ce9341bbfb5003e1a4333, type: 3}
   winMusicFiles:
   - {fileID: 8300000, guid: e0133e13a3053864aaa1dee84b9ecabb, type: 3}
+  defeatMusicFiles:
+  - {fileID: 8300000, guid: ca91c79df9874164dad4542840c28358, type: 3}
 --- !u!82 &1412033199
 AudioSource:
   m_ObjectHideFlags: 0

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5515864099732815602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5515864099732815116}
+  - component: {fileID: 5515864099732815603}
+  m_Layer: 0
+  m_Name: EnemyKingdom-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5515864099732815116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515864099732815602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5515864099732815603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515864099732815602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730a055c34a761f45b9fb5089fdd1f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faction: 0
+  team:
+  - {fileID: -7251937329128881099, guid: 4c28451ef20073049b962990ef86fdef, type: 3}
+  - {fileID: -7251937329128881099, guid: 41a61688821dae0489fc902efef48186, type: 3}
+  - {fileID: -7251937329128881099, guid: 8f26d9046fdf7e74dafe0db3c05b27e8, type: 3}
+  - {fileID: -7251937329128881099, guid: 8c7543234b564d14b92959848d8a6ef4, type: 3}
+  playerNumber: 2
+  isActivePlayer: 0
+  teamSize: 0

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: AdjacentAttack
   m_EditorClassIdentifier: 
   trigger: 0
-  abilityName: Mob Leader
-  abilityDescription: After an attack, all allies adjacent to the attacker also attack.
-  sprite: {fileID: 21300000, guid: 4f56c56a388d3bf45b75ee4d9c7f1e18, type: 3}
+  abilityName: Cleave
+  abilityDescription: The enemy units adjacent to this unit's attack also take damage.
+    Cannot flank.
+  sprite: {fileID: 21300000, guid: 58944b4540a4ede4e82cb27e1c80abc8, type: 3}
+  value: 1

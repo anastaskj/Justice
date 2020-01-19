@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class Champion : MonoBehaviour
 {
+    [SerializeField] Factions faction; 
+
     public List<Unit> team;
 
     public int playerNumber;
     public bool isActivePlayer;
     public int teamSize;
-
-    private void Awake()
-    {
-        //DontDestroyOnLoad(transform.gameObject);
-    }
 
     private void Start()
     {

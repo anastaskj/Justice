@@ -18,9 +18,20 @@ public static class IsometricMetrics
 
     public static int maxUnitsPerTeam = 5;
     public static BattleState state;
+    public static ProgressState progress;
 }
 
 public enum BattleState
 {
    SPAWN, SETUP, BATTLE, END 
+}
+
+public enum Factions
+{
+    Kingdom, Virulent, Sands
+}
+
+public enum ProgressState
+{
+    Quarterfinal, Semifinal, Final
 }

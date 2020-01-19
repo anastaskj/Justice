@@ -94,6 +94,7 @@ public class SaveLoadMenu : MonoBehaviour
         }
         using (BinaryReader reader = new BinaryReader(File.OpenRead(path)))
         {
+            Debug.Log(path);
             int header = reader.ReadInt32();
             if (header == 0)
             {
@@ -117,6 +118,17 @@ public class SaveLoadMenu : MonoBehaviour
         //    SceneManager.LoadScene(1);
         //    grid.OpenPanels();
         //}
+    }
+
+    public void LoadRandomMap()
+    {
+        string[] paths = Directory.GetFiles(Application.persistentDataPath, "*.map");
+        Array.Sort(paths);
+
+        int rand = UnityEngine.Random.Range(0, paths.Length);
+
+        string mapToLoad = paths[rand];
+        Load(mapToLoad);
     }
 
     public void SelectItem(string name)

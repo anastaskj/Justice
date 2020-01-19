@@ -336,6 +336,8 @@ MonoBehaviour:
   damageLabel: {fileID: 7369622187512607151, guid: 94c97bd8dc7f8df43aa5bf984ec0dc9e,
     type: 3}
   canv: {fileID: 0}
+  normalHealthColor: {r: 0, g: 0, b: 0, a: 0}
+  shieldedHealthColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &7193914576307724401
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,8 +409,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -57.56, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchoredPosition: {x: -53.9, y: -5.9}
+  m_SizeDelta: {x: 39.14, y: 42.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6142716822923562724
 CanvasRenderer:
@@ -439,12 +441,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 787e159a66393854c9ad6d1d87c42e8d, type: 3}
+    m_FontSize: 26
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 54
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -465,5 +467,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 2, y: -2}
+  m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1

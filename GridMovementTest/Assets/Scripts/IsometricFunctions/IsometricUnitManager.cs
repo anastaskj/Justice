@@ -10,6 +10,7 @@ public class IsometricUnitManager : MonoBehaviour
     //temp
     [SerializeField] MusicManager musicController;
     [SerializeField] GameSoundsManager gameSoundController;
+    [SerializeField] IsometricGameManager gameManager;
 
     public Champion[] teams;
 
@@ -21,7 +22,7 @@ public class IsometricUnitManager : MonoBehaviour
 
     //move
     public Image turnColor;
-
+    public Text progressText;
     public UnitDetailsUI unitDetails;
     //
     
@@ -82,7 +83,7 @@ public class IsometricUnitManager : MonoBehaviour
 
     private void Start()
     {
-        IsometricMetrics.state = BattleState.SPAWN;
+        IsometricMetrics.state = BattleState.SETUP;
         currentPlayer = 1;
         //endCanvas.gameObject.SetActive(false);
     }
@@ -183,10 +184,12 @@ public class IsometricUnitManager : MonoBehaviour
 
     void HandleUnit(IsometricTile tile)
     {
+        Debug.Log(IsometricMetrics.state);
         if (IsometricMetrics.state == BattleState.SETUP)
         {
             if (tile.unit != null && tile.unit.CheckUnitTeam())
             {
+                Debug.Log("2");
                 tile.unit.ResetSelectedUnit();
                 foreach (IsometricTile t in grid.GetSpawnerTiles(tile.unit.champ.playerNumber-1))
                 {
@@ -335,7 +338,24 @@ public class IsometricUnitManager : MonoBehaviour
         {
             endCanvas.gameObject.SetActive(true);
             endCanvas.SetText(playerWon);
-            musicController.PlayWinMusic();
+            if (playerWon == 2)
+            {
+                musicController.PlayWinMusic();
+                if (IsometricMetrics.progress < ProgressState.Final)
+                {
+                    IsometricMetrics.progress++;
+                }
+                else
+                {
+                    IsometricMetrics.progress = ProgressState.Quarterfinal;
+                }
+                gameManager.SaveGameState();
+            }
+            else
+            {
+                musicController.PlayDefeatMusic();
+            }
+            
         }
     }
 
@@ -424,6 +444,11 @@ public class IsometricUnitManager : MonoBehaviour
             turnColor.color = Color.blue;
             currentPlayer = 1;
         }
+    }
+
+    public void UpdateProgress()
+    {
+        progressText.text = IsometricMetrics.progress.ToString();
     }
 
     public void UpdateAllTactics()

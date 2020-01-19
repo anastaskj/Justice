@@ -13,6 +13,9 @@ public class MusicManager : MonoBehaviour
     [SerializeField]
     AudioClip[] winMusicFiles;
 
+    [SerializeField]
+    AudioClip[] defeatMusicFiles;
+
 
     public void PlayMusic()
     {
@@ -25,6 +28,13 @@ public class MusicManager : MonoBehaviour
     {
         int rand = Random.Range(0, winMusicFiles.Length);
         source.clip = winMusicFiles[rand];
+        source.Play();
+    }
+
+    public void PlayDefeatMusic()
+    {
+        int rand = Random.Range(0, defeatMusicFiles.Length);
+        source.clip = defeatMusicFiles[rand];
         source.Play();
     }
 }
